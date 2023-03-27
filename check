@@ -1,0 +1,10 @@
+#!/usr/bin/python3 -u
+# Copyright 2020 Darius Neatu (neatudarius@gmail.com)
+
+from check_utils.checks import checker_run
+from check_utils.utils import log, run_and_measure
+from datetime import timedelta
+
+if __name__ == '__main__':
+    ret, seconds = run_and_measure(checker_run)
+    log('\n\nTotal execution time: {}'.format(seconds))

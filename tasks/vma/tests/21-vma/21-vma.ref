@@ -1,0 +1,58 @@
+Total memory: 0x10000 bytes
+Free memory: 0xFFE2 bytes
+Number of allocated blocks: 3
+Number of allocated miniblocks: 3
+
+Block 1 begin
+Zone: 0x1000 - 0x100A
+Miniblock 1:		0x1000		-		0x100A		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x3000 - 0x300A
+Miniblock 1:		0x3000		-		0x300A		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x3014 - 0x301E
+Miniblock 1:		0x3014		-		0x301E		| RW-
+Block 3 end
+Total memory: 0x10000 bytes
+Free memory: 0xFFD8 bytes
+Number of allocated blocks: 2
+Number of allocated miniblocks: 4
+
+Block 1 begin
+Zone: 0x1000 - 0x100A
+Miniblock 1:		0x1000		-		0x100A		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x3000 - 0x301E
+Miniblock 1:		0x3000		-		0x300A		| RW-
+Miniblock 2:		0x300A		-		0x3014		| RW-
+Miniblock 3:		0x3014		-		0x301E		| RW-
+Block 2 end
+Warning: size was bigger than the block size. Writing 10 characters.
+Warning: size was bigger than the block size. Reading 10 characters.
+Observ sis
+Invalid permissions for write.
+Total memory: 0x10000 bytes
+Free memory: 0xFFE2 bytes
+Number of allocated blocks: 3
+Number of allocated miniblocks: 3
+
+Block 1 begin
+Zone: 0x1000 - 0x100A
+Miniblock 1:		0x1000		-		0x100A		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x3000 - 0x300A
+Miniblock 1:		0x3000		-		0x300A		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x3014 - 0x301E
+Miniblock 1:		0x3014		-		0x301E		| ---
+Block 3 end

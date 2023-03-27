@@ -1,0 +1,11 @@
+Total memory: 0xA bytes
+Free memory: 0x7 bytes
+Number of allocated blocks: 1
+Number of allocated miniblocks: 3
+
+Block 1 begin
+Zone: 0x1 - 0x4
+Miniblock 1:		0x1		-		0x2		| RW-
+Miniblock 2:		0x2		-		0x3		| RW-
+Miniblock 3:		0x3		-		0x4		| RW-
+Block 1 end

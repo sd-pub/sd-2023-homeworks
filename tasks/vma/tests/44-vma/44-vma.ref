@@ -1,0 +1,10 @@
+Total memory: 0xC8 bytes
+Free memory: 0xB4 bytes
+Number of allocated blocks: 1
+Number of allocated miniblocks: 2
+
+Block 1 begin
+Zone: 0xA - 0x1E
+Miniblock 1:		0xA		-		0x14		| RW-
+Miniblock 2:		0x14		-		0x1E		| ---
+Block 1 end

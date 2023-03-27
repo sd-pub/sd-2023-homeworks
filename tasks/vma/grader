@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+# Copyright 2023 SDA Team
+
+import inspect
+import pathlib
+import os
+import sys
+
+current_dir = os.path.dirname(os.path.abspath(
+    inspect.getfile(inspect.currentframe())))
+root_dir = pathlib.Path(current_dir).parent.parent
+sys.path.insert(0, str(root_dir))
+
+from check_utils.grader import Grader
+
+
+class VmaGrader(Grader):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def grade_test(self):
+        input, output, ref = self.read()
+
+        # compare answer
+        if len(output) != len(ref):
+            self.exit(
+                code=-1, err='wrong number of lines: {} vs {}'.format(len(output), len(ref)))
+
+        for i, line in enumerate(ref):
+            if output[i] != line:
+                self.exit(
+                    code=-1, err='response #{} wrong: "{}" vs "{}"'.format(i, output[i], line))
+
+        self.add_points(self.max_points)
+
+
+if __name__ == '__main__':
+    assert len(sys.argv) == 5, sys.argv
+    VmaGrader(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]).run()

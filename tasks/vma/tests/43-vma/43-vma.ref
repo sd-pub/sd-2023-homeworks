@@ -1,0 +1,10 @@
+Invalid address for mprotect.
+Total memory: 0xC8 bytes
+Free memory: 0x64 bytes
+Number of allocated blocks: 1
+Number of allocated miniblocks: 1
+
+Block 1 begin
+Zone: 0xA - 0x6E
+Miniblock 1:		0xA		-		0x6E		| RW-
+Block 1 end
