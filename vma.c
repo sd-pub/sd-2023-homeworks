@@ -2,7 +2,7 @@
 
 arena_t *alloc_arena(const uint64_t size)
 {
-    return NULL;
+
 }
 
 void dealloc_arena(arena_t *arena)

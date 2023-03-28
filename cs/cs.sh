@@ -22,6 +22,7 @@ check_coding_style()
         NOT_UNIFIED_DIFF            # kernel specific convention
         SPDX_LICENSE_TAG            # kernel specific convention
         BLOCK_COMMENT_STYLE         # kernel specific convention
+        PREFER_KERNEL_TYPES         # kernel specific convention
         EMBEDDED_FUNCTION_NAME      # DN -> not required for PC: Prefer using '"%s...", __func__' to using 'main', this function's name, in a string
         MALFORMED_INCLUDE           # DN -> not required for PC: ERROR:MALFORMED_INCLUDE: malformed #include filename
         CONSTANT_COMPARISON         # DN -> not required for PC: WARNING:CONSTANT_COMPARISON: Comparisons should place the constant on the right side of the test
