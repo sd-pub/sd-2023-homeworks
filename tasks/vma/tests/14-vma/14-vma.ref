@@ -1,9 +1,9 @@
 Total memory: 0x1000000064 bytes
-Free memory: 0xE00000064 bytes
+Free memory: 0xFFFFFF064 bytes
 Number of allocated blocks: 1
 Number of allocated miniblocks: 1
 
 Block 1 begin
-Zone: 0x40000000A - 0x60000000A
-Miniblock 1:		0x40000000A		-		0x60000000A		| RW-
+Zone: 0x40000000A - 0x40000100A
+Miniblock 1:		0x40000000A		-		0x40000100A		| RW-
 Block 1 end
