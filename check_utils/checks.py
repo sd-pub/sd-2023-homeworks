@@ -146,10 +146,17 @@ def check_readme(config):
 
     log('+++++ running check_readme ({:g}p) ...'.format(config.penalty_readme))
 
-    readme = pathlib.Path('README')
+
+    readme_files = [pathlib.Path('README.md'), pathlib.Path('README')]
+    readme = None
+    for readme_file in readme_files:
+        if readme_file.is_file():
+            readme = readme_file
+            break
+
     readme_points = 0
-    if not readme.is_file():
-        reason = '\'{}\' is missing!'.format(readme.name)
+    if readme == None:
+        reason = '\'README or README.md\' is missing!'
         log(reason)
         update_grade_vmr(config, -config.penalty_readme, reason)
     elif readme.stat().st_size == 0:
