@@ -203,8 +203,8 @@ def check_style(config):
         reason = 'Coding style errors automatically detected.'
         update_grade_vmr(config, -config.coding_style, reason)
     else:
-        coding_style_grade = (1.0 * max(min(config.grade, 70), 0) /
-                              (config.tests_points - 20)) * config.coding_style
+        coding_style_grade = (1.0 * max(min(config.grade, 100), 0) /
+                              config.tests_points * config.coding_style)
         if coding_style_grade < config.coding_style:
 
             reason = 'No coding style errors automatically detected (tests points {}/{})'.format(config.grade, config.tests_points)

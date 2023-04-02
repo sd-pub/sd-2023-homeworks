@@ -2069,7 +2069,7 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 26 end
 Warning: size was bigger than the block size. Reading 72 characters.
-D_BLOCK 5291 166
+AD_BLOCK 5291 166
 READ_BLOCK 8289454630 595295871
 FREE_BLOCK 1
 READ_BLOC
@@ -3563,8 +3563,7 @@ Invalid address for free.
 This zone was already allocated.
 Invalid address for read.
 This zone was already allocated.
-
-
+1
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x3074 bytes
@@ -3920,8 +3919,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 35 end
 Invalid address for free.
-1
-ALLOC_BLOCK 80010 4011
+71
+ALLOC_BLOCK 80010 401
 Invalid address for write.
 This zone was already allocated.
 Total memory: 0x3C74 bytes
@@ -5548,9 +5547,9 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 35 end
 Invalid address for free.
 Warning: size was bigger than the block size. Writing 64 characters.
-GyUjXslDIsshZYPi
+nPNrQtjqKGyUjXslDIsshZYPi
 FREE_BLOCK 9
-READ_BLOCK 938742 2
+READ_BLOCK
 Total memory: 0x3C74 bytes
 Free memory: 0x3060 bytes
 Number of allocated blocks: 36
@@ -5737,8 +5736,7 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 36 end
 This zone was already allocated.
 Invalid address for read.
-sshZYPi
-FREE
+GyUjXslDIssh
 Total memory: 0x3C74 bytes
 Free memory: 0x305E bytes
 Number of allocated blocks: 37
@@ -5929,19 +5927,18 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 37 end
 Invalid address for free.
-EE_BLOCK 9
+shZYPi
+FREE_BLOCK 9
 READ_BLOCK 938742 23207
-ALLOC_BLOCK
+AL
 This zone was already allocated.
 Invalid address for free.
 Invalid address for free.
 Invalid address for write.
 This zone was already allocated.
-42 23207
-ALL
-hZYPi
-FREE_BLOCK 9
-REA
+LOCK 938742 
+UjXslDIsshZYPi
+FREE_BL
 This zone was already allocated.
 Total memory: 0x3C74 bytes
 Free memory: 0x2FBE bytes
@@ -6346,1499 +6343,1497 @@ Block 40 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 40 end
- 938742 23207
-ALLOC_BLOCK 9 
-Total memory: 0x3C74 bytes
-Free memory: 0x2F3E bytes
-Number of allocated blocks: 40
-Number of allocated miniblocks: 40
-
-Block 1 begin
-Zone: 0x12A - 0x12E
-Miniblock 1:		0x12A		-		0x12E		| RW-
-Block 1 end
-
-Block 2 begin
-Zone: 0x155 - 0x165
-Miniblock 1:		0x155		-		0x165		| RW-
-Block 2 end
-
-Block 3 begin
-Zone: 0x18C - 0x1AC
-Miniblock 1:		0x18C		-		0x1AC		| RW-
-Block 3 end
-
-Block 4 begin
-Zone: 0x215 - 0x235
-Miniblock 1:		0x215		-		0x235		| RW-
-Block 4 end
-
-Block 5 begin
-Zone: 0x2B9 - 0x2BB
-Miniblock 1:		0x2B9		-		0x2BB		| RW-
-Block 5 end
-
-Block 6 begin
-Zone: 0x367 - 0x467
-Miniblock 1:		0x367		-		0x467		| RW-
-Block 6 end
-
-Block 7 begin
-Zone: 0x4A8 - 0x4B8
-Miniblock 1:		0x4A8		-		0x4B8		| RW-
-Block 7 end
-
-Block 8 begin
-Zone: 0x5AE - 0x5BE
-Miniblock 1:		0x5AE		-		0x5BE		| RW-
-Block 8 end
-
-Block 9 begin
-Zone: 0x5E5 - 0x605
-Miniblock 1:		0x5E5		-		0x605		| RW-
-Block 9 end
-
-Block 10 begin
-Zone: 0x61E - 0x71E
-Miniblock 1:		0x61E		-		0x71E		| RW-
-Block 10 end
-
-Block 11 begin
-Zone: 0x7D6 - 0x816
-Miniblock 1:		0x7D6		-		0x816		| RW-
-Block 11 end
-
-Block 12 begin
-Zone: 0x839 - 0x8B9
-Miniblock 1:		0x839		-		0x8B9		| RW-
-Block 12 end
-
-Block 13 begin
-Zone: 0x8F6 - 0x976
-Miniblock 1:		0x8F6		-		0x976		| RW-
-Block 13 end
-
-Block 14 begin
-Zone: 0xA23 - 0xA63
-Miniblock 1:		0xA23		-		0xA63		| RW-
-Block 14 end
-
-Block 15 begin
-Zone: 0xAE4 - 0xB64
-Miniblock 1:		0xAE4		-		0xB64		| RW-
-Block 15 end
-
-Block 16 begin
-Zone: 0xC6F - 0xC71
-Miniblock 1:		0xC6F		-		0xC71		| RW-
-Block 16 end
-
-Block 17 begin
-Zone: 0xCFC - 0xCFE
-Miniblock 1:		0xCFC		-		0xCFE		| RW-
-Block 17 end
-
-Block 18 begin
-Zone: 0xD5E - 0xD7E
-Miniblock 1:		0xD5E		-		0xD7E		| RW-
-Block 18 end
-
-Block 19 begin
-Zone: 0xE69 - 0xE89
-Miniblock 1:		0xE69		-		0xE89		| RW-
-Block 19 end
-
-Block 20 begin
-Zone: 0xEB3 - 0xEB7
-Miniblock 1:		0xEB3		-		0xEB7		| RW-
-Block 20 end
-
-Block 21 begin
-Zone: 0xEDD - 0xEE1
-Miniblock 1:		0xEDD		-		0xEE1		| RW-
-Block 21 end
-
-Block 22 begin
-Zone: 0xF40 - 0xFC0
-Miniblock 1:		0xF40		-		0xFC0		| RW-
-Block 22 end
-
-Block 23 begin
-Zone: 0xFD0 - 0xFF0
-Miniblock 1:		0xFD0		-		0xFF0		| RW-
-Block 23 end
-
-Block 24 begin
-Zone: 0x1037 - 0x103F
-Miniblock 1:		0x1037		-		0x103F		| RW-
-Block 24 end
-
-Block 25 begin
-Zone: 0x104A - 0x114A
-Miniblock 1:		0x104A		-		0x114A		| RW-
-Block 25 end
-
-Block 26 begin
-Zone: 0x1236 - 0x1246
-Miniblock 1:		0x1236		-		0x1246		| RW-
-Block 26 end
-
-Block 27 begin
-Zone: 0x1302 - 0x1382
-Miniblock 1:		0x1302		-		0x1382		| RW-
-Block 27 end
-
-Block 28 begin
-Zone: 0x142B - 0x142F
-Miniblock 1:		0x142B		-		0x142F		| RW-
-Block 28 end
-
-Block 29 begin
-Zone: 0x1467 - 0x1477
-Miniblock 1:		0x1467		-		0x1477		| RW-
-Block 29 end
-
-Block 30 begin
-Zone: 0x147D - 0x1481
-Miniblock 1:		0x147D		-		0x1481		| RW-
-Block 30 end
-
-Block 31 begin
-Zone: 0x1488 - 0x14C8
-Miniblock 1:		0x1488		-		0x14C8		| RW-
-Block 31 end
-
-Block 32 begin
-Zone: 0x160C - 0x168C
-Miniblock 1:		0x160C		-		0x168C		| RW-
-Block 32 end
-
-Block 33 begin
-Zone: 0x16B1 - 0x18B1
-Miniblock 1:		0x16B1		-		0x18B1		| RW-
-Block 33 end
-
-Block 34 begin
-Zone: 0x18E7 - 0x18E9
-Miniblock 1:		0x18E7		-		0x18E9		| RW-
-Block 34 end
-
-Block 35 begin
-Zone: 0x19D8 - 0x1A58
-Miniblock 1:		0x19D8		-		0x1A58		| RW-
-Block 35 end
-
-Block 36 begin
-Zone: 0x1AEB - 0x1AED
-Miniblock 1:		0x1AEB		-		0x1AED		| RW-
-Block 36 end
-
-Block 37 begin
-Zone: 0x1B9D - 0x1BBD
-Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
-Block 37 end
-
-Block 38 begin
-Zone: 0x1C3E - 0x1C5E
-Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
-Block 38 end
-
-Block 39 begin
-Zone: 0x1D16 - 0x1D96
-Miniblock 1:		0x1D16		-		0x1D96		| RW-
-Block 39 end
-
-Block 40 begin
-Zone: 0x1D9F - 0x1F9F
-Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
-Block 40 end
-lDIsshZYPi
-FREE_BLOCK 9
-READ_BLOCK 938742 23207
-ALLOC_BLOCK 
-Total memory: 0x3C74 bytes
-Free memory: 0x2F3E bytes
-Number of allocated blocks: 40
-Number of allocated miniblocks: 40
-
-Block 1 begin
-Zone: 0x12A - 0x12E
-Miniblock 1:		0x12A		-		0x12E		| RW-
-Block 1 end
-
-Block 2 begin
-Zone: 0x155 - 0x165
-Miniblock 1:		0x155		-		0x165		| RW-
-Block 2 end
-
-Block 3 begin
-Zone: 0x18C - 0x1AC
-Miniblock 1:		0x18C		-		0x1AC		| RW-
-Block 3 end
-
-Block 4 begin
-Zone: 0x215 - 0x235
-Miniblock 1:		0x215		-		0x235		| RW-
-Block 4 end
-
-Block 5 begin
-Zone: 0x2B9 - 0x2BB
-Miniblock 1:		0x2B9		-		0x2BB		| RW-
-Block 5 end
-
-Block 6 begin
-Zone: 0x367 - 0x467
-Miniblock 1:		0x367		-		0x467		| RW-
-Block 6 end
-
-Block 7 begin
-Zone: 0x4A8 - 0x4B8
-Miniblock 1:		0x4A8		-		0x4B8		| RW-
-Block 7 end
-
-Block 8 begin
-Zone: 0x5AE - 0x5BE
-Miniblock 1:		0x5AE		-		0x5BE		| RW-
-Block 8 end
-
-Block 9 begin
-Zone: 0x5E5 - 0x605
-Miniblock 1:		0x5E5		-		0x605		| RW-
-Block 9 end
-
-Block 10 begin
-Zone: 0x61E - 0x71E
-Miniblock 1:		0x61E		-		0x71E		| RW-
-Block 10 end
-
-Block 11 begin
-Zone: 0x7D6 - 0x816
-Miniblock 1:		0x7D6		-		0x816		| RW-
-Block 11 end
-
-Block 12 begin
-Zone: 0x839 - 0x8B9
-Miniblock 1:		0x839		-		0x8B9		| RW-
-Block 12 end
-
-Block 13 begin
-Zone: 0x8F6 - 0x976
-Miniblock 1:		0x8F6		-		0x976		| RW-
-Block 13 end
-
-Block 14 begin
-Zone: 0xA23 - 0xA63
-Miniblock 1:		0xA23		-		0xA63		| RW-
-Block 14 end
-
-Block 15 begin
-Zone: 0xAE4 - 0xB64
-Miniblock 1:		0xAE4		-		0xB64		| RW-
-Block 15 end
-
-Block 16 begin
-Zone: 0xC6F - 0xC71
-Miniblock 1:		0xC6F		-		0xC71		| RW-
-Block 16 end
-
-Block 17 begin
-Zone: 0xCFC - 0xCFE
-Miniblock 1:		0xCFC		-		0xCFE		| RW-
-Block 17 end
-
-Block 18 begin
-Zone: 0xD5E - 0xD7E
-Miniblock 1:		0xD5E		-		0xD7E		| RW-
-Block 18 end
-
-Block 19 begin
-Zone: 0xE69 - 0xE89
-Miniblock 1:		0xE69		-		0xE89		| RW-
-Block 19 end
-
-Block 20 begin
-Zone: 0xEB3 - 0xEB7
-Miniblock 1:		0xEB3		-		0xEB7		| RW-
-Block 20 end
-
-Block 21 begin
-Zone: 0xEDD - 0xEE1
-Miniblock 1:		0xEDD		-		0xEE1		| RW-
-Block 21 end
-
-Block 22 begin
-Zone: 0xF40 - 0xFC0
-Miniblock 1:		0xF40		-		0xFC0		| RW-
-Block 22 end
-
-Block 23 begin
-Zone: 0xFD0 - 0xFF0
-Miniblock 1:		0xFD0		-		0xFF0		| RW-
-Block 23 end
-
-Block 24 begin
-Zone: 0x1037 - 0x103F
-Miniblock 1:		0x1037		-		0x103F		| RW-
-Block 24 end
-
-Block 25 begin
-Zone: 0x104A - 0x114A
-Miniblock 1:		0x104A		-		0x114A		| RW-
-Block 25 end
-
-Block 26 begin
-Zone: 0x1236 - 0x1246
-Miniblock 1:		0x1236		-		0x1246		| RW-
-Block 26 end
-
-Block 27 begin
-Zone: 0x1302 - 0x1382
-Miniblock 1:		0x1302		-		0x1382		| RW-
-Block 27 end
-
-Block 28 begin
-Zone: 0x142B - 0x142F
-Miniblock 1:		0x142B		-		0x142F		| RW-
-Block 28 end
-
-Block 29 begin
-Zone: 0x1467 - 0x1477
-Miniblock 1:		0x1467		-		0x1477		| RW-
-Block 29 end
-
-Block 30 begin
-Zone: 0x147D - 0x1481
-Miniblock 1:		0x147D		-		0x1481		| RW-
-Block 30 end
-
-Block 31 begin
-Zone: 0x1488 - 0x14C8
-Miniblock 1:		0x1488		-		0x14C8		| RW-
-Block 31 end
-
-Block 32 begin
-Zone: 0x160C - 0x168C
-Miniblock 1:		0x160C		-		0x168C		| RW-
-Block 32 end
-
-Block 33 begin
-Zone: 0x16B1 - 0x18B1
-Miniblock 1:		0x16B1		-		0x18B1		| RW-
-Block 33 end
-
-Block 34 begin
-Zone: 0x18E7 - 0x18E9
-Miniblock 1:		0x18E7		-		0x18E9		| RW-
-Block 34 end
-
-Block 35 begin
-Zone: 0x19D8 - 0x1A58
-Miniblock 1:		0x19D8		-		0x1A58		| RW-
-Block 35 end
-
-Block 36 begin
-Zone: 0x1AEB - 0x1AED
-Miniblock 1:		0x1AEB		-		0x1AED		| RW-
-Block 36 end
-
-Block 37 begin
-Zone: 0x1B9D - 0x1BBD
-Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
-Block 37 end
-
-Block 38 begin
-Zone: 0x1C3E - 0x1C5E
-Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
-Block 38 end
-
-Block 39 begin
-Zone: 0x1D16 - 0x1D96
-Miniblock 1:		0x1D16		-		0x1D96		| RW-
-Block 39 end
-
-Block 40 begin
-Zone: 0x1D9F - 0x1F9F
-Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
-Block 40 end
-Total memory: 0x3C74 bytes
-Free memory: 0x2F3E bytes
-Number of allocated blocks: 40
-Number of allocated miniblocks: 40
-
-Block 1 begin
-Zone: 0x12A - 0x12E
-Miniblock 1:		0x12A		-		0x12E		| RW-
-Block 1 end
-
-Block 2 begin
-Zone: 0x155 - 0x165
-Miniblock 1:		0x155		-		0x165		| RW-
-Block 2 end
-
-Block 3 begin
-Zone: 0x18C - 0x1AC
-Miniblock 1:		0x18C		-		0x1AC		| RW-
-Block 3 end
-
-Block 4 begin
-Zone: 0x215 - 0x235
-Miniblock 1:		0x215		-		0x235		| RW-
-Block 4 end
-
-Block 5 begin
-Zone: 0x2B9 - 0x2BB
-Miniblock 1:		0x2B9		-		0x2BB		| RW-
-Block 5 end
-
-Block 6 begin
-Zone: 0x367 - 0x467
-Miniblock 1:		0x367		-		0x467		| RW-
-Block 6 end
-
-Block 7 begin
-Zone: 0x4A8 - 0x4B8
-Miniblock 1:		0x4A8		-		0x4B8		| RW-
-Block 7 end
-
-Block 8 begin
-Zone: 0x5AE - 0x5BE
-Miniblock 1:		0x5AE		-		0x5BE		| RW-
-Block 8 end
-
-Block 9 begin
-Zone: 0x5E5 - 0x605
-Miniblock 1:		0x5E5		-		0x605		| RW-
-Block 9 end
-
-Block 10 begin
-Zone: 0x61E - 0x71E
-Miniblock 1:		0x61E		-		0x71E		| RW-
-Block 10 end
-
-Block 11 begin
-Zone: 0x7D6 - 0x816
-Miniblock 1:		0x7D6		-		0x816		| RW-
-Block 11 end
-
-Block 12 begin
-Zone: 0x839 - 0x8B9
-Miniblock 1:		0x839		-		0x8B9		| RW-
-Block 12 end
-
-Block 13 begin
-Zone: 0x8F6 - 0x976
-Miniblock 1:		0x8F6		-		0x976		| RW-
-Block 13 end
-
-Block 14 begin
-Zone: 0xA23 - 0xA63
-Miniblock 1:		0xA23		-		0xA63		| RW-
-Block 14 end
-
-Block 15 begin
-Zone: 0xAE4 - 0xB64
-Miniblock 1:		0xAE4		-		0xB64		| RW-
-Block 15 end
-
-Block 16 begin
-Zone: 0xC6F - 0xC71
-Miniblock 1:		0xC6F		-		0xC71		| RW-
-Block 16 end
-
-Block 17 begin
-Zone: 0xCFC - 0xCFE
-Miniblock 1:		0xCFC		-		0xCFE		| RW-
-Block 17 end
-
-Block 18 begin
-Zone: 0xD5E - 0xD7E
-Miniblock 1:		0xD5E		-		0xD7E		| RW-
-Block 18 end
-
-Block 19 begin
-Zone: 0xE69 - 0xE89
-Miniblock 1:		0xE69		-		0xE89		| RW-
-Block 19 end
-
-Block 20 begin
-Zone: 0xEB3 - 0xEB7
-Miniblock 1:		0xEB3		-		0xEB7		| RW-
-Block 20 end
-
-Block 21 begin
-Zone: 0xEDD - 0xEE1
-Miniblock 1:		0xEDD		-		0xEE1		| RW-
-Block 21 end
-
-Block 22 begin
-Zone: 0xF40 - 0xFC0
-Miniblock 1:		0xF40		-		0xFC0		| RW-
-Block 22 end
-
-Block 23 begin
-Zone: 0xFD0 - 0xFF0
-Miniblock 1:		0xFD0		-		0xFF0		| RW-
-Block 23 end
-
-Block 24 begin
-Zone: 0x1037 - 0x103F
-Miniblock 1:		0x1037		-		0x103F		| RW-
-Block 24 end
-
-Block 25 begin
-Zone: 0x104A - 0x114A
-Miniblock 1:		0x104A		-		0x114A		| RW-
-Block 25 end
-
-Block 26 begin
-Zone: 0x1236 - 0x1246
-Miniblock 1:		0x1236		-		0x1246		| RW-
-Block 26 end
-
-Block 27 begin
-Zone: 0x1302 - 0x1382
-Miniblock 1:		0x1302		-		0x1382		| RW-
-Block 27 end
-
-Block 28 begin
-Zone: 0x142B - 0x142F
-Miniblock 1:		0x142B		-		0x142F		| RW-
-Block 28 end
-
-Block 29 begin
-Zone: 0x1467 - 0x1477
-Miniblock 1:		0x1467		-		0x1477		| RW-
-Block 29 end
-
-Block 30 begin
-Zone: 0x147D - 0x1481
-Miniblock 1:		0x147D		-		0x1481		| RW-
-Block 30 end
-
-Block 31 begin
-Zone: 0x1488 - 0x14C8
-Miniblock 1:		0x1488		-		0x14C8		| RW-
-Block 31 end
-
-Block 32 begin
-Zone: 0x160C - 0x168C
-Miniblock 1:		0x160C		-		0x168C		| RW-
-Block 32 end
-
-Block 33 begin
-Zone: 0x16B1 - 0x18B1
-Miniblock 1:		0x16B1		-		0x18B1		| RW-
-Block 33 end
-
-Block 34 begin
-Zone: 0x18E7 - 0x18E9
-Miniblock 1:		0x18E7		-		0x18E9		| RW-
-Block 34 end
-
-Block 35 begin
-Zone: 0x19D8 - 0x1A58
-Miniblock 1:		0x19D8		-		0x1A58		| RW-
-Block 35 end
-
-Block 36 begin
-Zone: 0x1AEB - 0x1AED
-Miniblock 1:		0x1AEB		-		0x1AED		| RW-
-Block 36 end
-
-Block 37 begin
-Zone: 0x1B9D - 0x1BBD
-Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
-Block 37 end
-
-Block 38 begin
-Zone: 0x1C3E - 0x1C5E
-Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
-Block 38 end
-
-Block 39 begin
-Zone: 0x1D16 - 0x1D96
-Miniblock 1:		0x1D16		-		0x1D96		| RW-
-Block 39 end
-
-Block 40 begin
-Zone: 0x1D9F - 0x1F9F
-Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
-Block 40 end
-
-FREE_BLOCK 9
-READ_BLOCK 938742 23207
-ALLOC_BLO
-This zone was already allocated.
-Total memory: 0x3C74 bytes
-Free memory: 0x2F2A bytes
-Number of allocated blocks: 42
-Number of allocated miniblocks: 42
-
-Block 1 begin
-Zone: 0x12A - 0x12E
-Miniblock 1:		0x12A		-		0x12E		| RW-
-Block 1 end
-
-Block 2 begin
-Zone: 0x155 - 0x165
-Miniblock 1:		0x155		-		0x165		| RW-
-Block 2 end
-
-Block 3 begin
-Zone: 0x18C - 0x1AC
-Miniblock 1:		0x18C		-		0x1AC		| RW-
-Block 3 end
-
-Block 4 begin
-Zone: 0x1EE - 0x1F2
-Miniblock 1:		0x1EE		-		0x1F2		| RW-
-Block 4 end
-
-Block 5 begin
-Zone: 0x215 - 0x235
-Miniblock 1:		0x215		-		0x235		| RW-
-Block 5 end
-
-Block 6 begin
-Zone: 0x2B9 - 0x2BB
-Miniblock 1:		0x2B9		-		0x2BB		| RW-
-Block 6 end
-
-Block 7 begin
-Zone: 0x367 - 0x467
-Miniblock 1:		0x367		-		0x467		| RW-
-Block 7 end
-
-Block 8 begin
-Zone: 0x4A8 - 0x4B8
-Miniblock 1:		0x4A8		-		0x4B8		| RW-
-Block 8 end
-
-Block 9 begin
-Zone: 0x5AE - 0x5BE
-Miniblock 1:		0x5AE		-		0x5BE		| RW-
-Block 9 end
-
-Block 10 begin
-Zone: 0x5E5 - 0x605
-Miniblock 1:		0x5E5		-		0x605		| RW-
-Block 10 end
-
-Block 11 begin
-Zone: 0x61E - 0x71E
-Miniblock 1:		0x61E		-		0x71E		| RW-
-Block 11 end
-
-Block 12 begin
-Zone: 0x7D6 - 0x816
-Miniblock 1:		0x7D6		-		0x816		| RW-
-Block 12 end
-
-Block 13 begin
-Zone: 0x839 - 0x8B9
-Miniblock 1:		0x839		-		0x8B9		| RW-
-Block 13 end
-
-Block 14 begin
-Zone: 0x8F6 - 0x976
-Miniblock 1:		0x8F6		-		0x976		| RW-
-Block 14 end
-
-Block 15 begin
-Zone: 0xA23 - 0xA63
-Miniblock 1:		0xA23		-		0xA63		| RW-
-Block 15 end
-
-Block 16 begin
-Zone: 0xAE4 - 0xB64
-Miniblock 1:		0xAE4		-		0xB64		| RW-
-Block 16 end
-
-Block 17 begin
-Zone: 0xC6F - 0xC71
-Miniblock 1:		0xC6F		-		0xC71		| RW-
-Block 17 end
-
-Block 18 begin
-Zone: 0xCFC - 0xCFE
-Miniblock 1:		0xCFC		-		0xCFE		| RW-
-Block 18 end
-
-Block 19 begin
-Zone: 0xD5E - 0xD7E
-Miniblock 1:		0xD5E		-		0xD7E		| RW-
-Block 19 end
-
-Block 20 begin
-Zone: 0xE36 - 0xE46
-Miniblock 1:		0xE36		-		0xE46		| RW-
-Block 20 end
-
-Block 21 begin
-Zone: 0xE69 - 0xE89
-Miniblock 1:		0xE69		-		0xE89		| RW-
-Block 21 end
-
-Block 22 begin
-Zone: 0xEB3 - 0xEB7
-Miniblock 1:		0xEB3		-		0xEB7		| RW-
-Block 22 end
-
-Block 23 begin
-Zone: 0xEDD - 0xEE1
-Miniblock 1:		0xEDD		-		0xEE1		| RW-
-Block 23 end
-
-Block 24 begin
-Zone: 0xF40 - 0xFC0
-Miniblock 1:		0xF40		-		0xFC0		| RW-
-Block 24 end
-
-Block 25 begin
-Zone: 0xFD0 - 0xFF0
-Miniblock 1:		0xFD0		-		0xFF0		| RW-
-Block 25 end
-
-Block 26 begin
-Zone: 0x1037 - 0x103F
-Miniblock 1:		0x1037		-		0x103F		| RW-
-Block 26 end
-
-Block 27 begin
-Zone: 0x104A - 0x114A
-Miniblock 1:		0x104A		-		0x114A		| RW-
-Block 27 end
-
-Block 28 begin
-Zone: 0x1236 - 0x1246
-Miniblock 1:		0x1236		-		0x1246		| RW-
-Block 28 end
-
-Block 29 begin
-Zone: 0x1302 - 0x1382
-Miniblock 1:		0x1302		-		0x1382		| RW-
-Block 29 end
-
-Block 30 begin
-Zone: 0x142B - 0x142F
-Miniblock 1:		0x142B		-		0x142F		| RW-
-Block 30 end
-
-Block 31 begin
-Zone: 0x1467 - 0x1477
-Miniblock 1:		0x1467		-		0x1477		| RW-
-Block 31 end
-
-Block 32 begin
-Zone: 0x147D - 0x1481
-Miniblock 1:		0x147D		-		0x1481		| RW-
-Block 32 end
-
-Block 33 begin
-Zone: 0x1488 - 0x14C8
-Miniblock 1:		0x1488		-		0x14C8		| RW-
-Block 33 end
-
-Block 34 begin
-Zone: 0x160C - 0x168C
-Miniblock 1:		0x160C		-		0x168C		| RW-
-Block 34 end
-
-Block 35 begin
-Zone: 0x16B1 - 0x18B1
-Miniblock 1:		0x16B1		-		0x18B1		| RW-
-Block 35 end
-
-Block 36 begin
-Zone: 0x18E7 - 0x18E9
-Miniblock 1:		0x18E7		-		0x18E9		| RW-
-Block 36 end
-
-Block 37 begin
-Zone: 0x19D8 - 0x1A58
-Miniblock 1:		0x19D8		-		0x1A58		| RW-
-Block 37 end
-
-Block 38 begin
-Zone: 0x1AEB - 0x1AED
-Miniblock 1:		0x1AEB		-		0x1AED		| RW-
-Block 38 end
-
-Block 39 begin
-Zone: 0x1B9D - 0x1BBD
-Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
-Block 39 end
-
-Block 40 begin
-Zone: 0x1C3E - 0x1C5E
-Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
-Block 40 end
-
-Block 41 begin
-Zone: 0x1D16 - 0x1D96
-Miniblock 1:		0x1D16		-		0x1D96		| RW-
-Block 41 end
-
-Block 42 begin
-Zone: 0x1D9F - 0x1F9F
-Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
-Block 42 end
-Total memory: 0x3C74 bytes
-Free memory: 0x2F2A bytes
-Number of allocated blocks: 42
-Number of allocated miniblocks: 42
-
-Block 1 begin
-Zone: 0x12A - 0x12E
-Miniblock 1:		0x12A		-		0x12E		| RW-
-Block 1 end
-
-Block 2 begin
-Zone: 0x155 - 0x165
-Miniblock 1:		0x155		-		0x165		| RW-
-Block 2 end
-
-Block 3 begin
-Zone: 0x18C - 0x1AC
-Miniblock 1:		0x18C		-		0x1AC		| RW-
-Block 3 end
-
-Block 4 begin
-Zone: 0x1EE - 0x1F2
-Miniblock 1:		0x1EE		-		0x1F2		| RW-
-Block 4 end
-
-Block 5 begin
-Zone: 0x215 - 0x235
-Miniblock 1:		0x215		-		0x235		| RW-
-Block 5 end
-
-Block 6 begin
-Zone: 0x2B9 - 0x2BB
-Miniblock 1:		0x2B9		-		0x2BB		| RW-
-Block 6 end
-
-Block 7 begin
-Zone: 0x367 - 0x467
-Miniblock 1:		0x367		-		0x467		| RW-
-Block 7 end
-
-Block 8 begin
-Zone: 0x4A8 - 0x4B8
-Miniblock 1:		0x4A8		-		0x4B8		| RW-
-Block 8 end
-
-Block 9 begin
-Zone: 0x5AE - 0x5BE
-Miniblock 1:		0x5AE		-		0x5BE		| RW-
-Block 9 end
-
-Block 10 begin
-Zone: 0x5E5 - 0x605
-Miniblock 1:		0x5E5		-		0x605		| RW-
-Block 10 end
-
-Block 11 begin
-Zone: 0x61E - 0x71E
-Miniblock 1:		0x61E		-		0x71E		| RW-
-Block 11 end
-
-Block 12 begin
-Zone: 0x7D6 - 0x816
-Miniblock 1:		0x7D6		-		0x816		| RW-
-Block 12 end
-
-Block 13 begin
-Zone: 0x839 - 0x8B9
-Miniblock 1:		0x839		-		0x8B9		| RW-
-Block 13 end
-
-Block 14 begin
-Zone: 0x8F6 - 0x976
-Miniblock 1:		0x8F6		-		0x976		| RW-
-Block 14 end
-
-Block 15 begin
-Zone: 0xA23 - 0xA63
-Miniblock 1:		0xA23		-		0xA63		| RW-
-Block 15 end
-
-Block 16 begin
-Zone: 0xAE4 - 0xB64
-Miniblock 1:		0xAE4		-		0xB64		| RW-
-Block 16 end
-
-Block 17 begin
-Zone: 0xC6F - 0xC71
-Miniblock 1:		0xC6F		-		0xC71		| RW-
-Block 17 end
-
-Block 18 begin
-Zone: 0xCFC - 0xCFE
-Miniblock 1:		0xCFC		-		0xCFE		| RW-
-Block 18 end
-
-Block 19 begin
-Zone: 0xD5E - 0xD7E
-Miniblock 1:		0xD5E		-		0xD7E		| RW-
-Block 19 end
-
-Block 20 begin
-Zone: 0xE36 - 0xE46
-Miniblock 1:		0xE36		-		0xE46		| RW-
-Block 20 end
-
-Block 21 begin
-Zone: 0xE69 - 0xE89
-Miniblock 1:		0xE69		-		0xE89		| RW-
-Block 21 end
-
-Block 22 begin
-Zone: 0xEB3 - 0xEB7
-Miniblock 1:		0xEB3		-		0xEB7		| RW-
-Block 22 end
-
-Block 23 begin
-Zone: 0xEDD - 0xEE1
-Miniblock 1:		0xEDD		-		0xEE1		| RW-
-Block 23 end
-
-Block 24 begin
-Zone: 0xF40 - 0xFC0
-Miniblock 1:		0xF40		-		0xFC0		| RW-
-Block 24 end
-
-Block 25 begin
-Zone: 0xFD0 - 0xFF0
-Miniblock 1:		0xFD0		-		0xFF0		| RW-
-Block 25 end
-
-Block 26 begin
-Zone: 0x1037 - 0x103F
-Miniblock 1:		0x1037		-		0x103F		| RW-
-Block 26 end
-
-Block 27 begin
-Zone: 0x104A - 0x114A
-Miniblock 1:		0x104A		-		0x114A		| RW-
-Block 27 end
-
-Block 28 begin
-Zone: 0x1236 - 0x1246
-Miniblock 1:		0x1236		-		0x1246		| RW-
-Block 28 end
-
-Block 29 begin
-Zone: 0x1302 - 0x1382
-Miniblock 1:		0x1302		-		0x1382		| RW-
-Block 29 end
-
-Block 30 begin
-Zone: 0x142B - 0x142F
-Miniblock 1:		0x142B		-		0x142F		| RW-
-Block 30 end
-
-Block 31 begin
-Zone: 0x1467 - 0x1477
-Miniblock 1:		0x1467		-		0x1477		| RW-
-Block 31 end
-
-Block 32 begin
-Zone: 0x147D - 0x1481
-Miniblock 1:		0x147D		-		0x1481		| RW-
-Block 32 end
-
-Block 33 begin
-Zone: 0x1488 - 0x14C8
-Miniblock 1:		0x1488		-		0x14C8		| RW-
-Block 33 end
-
-Block 34 begin
-Zone: 0x160C - 0x168C
-Miniblock 1:		0x160C		-		0x168C		| RW-
-Block 34 end
-
-Block 35 begin
-Zone: 0x16B1 - 0x18B1
-Miniblock 1:		0x16B1		-		0x18B1		| RW-
-Block 35 end
-
-Block 36 begin
-Zone: 0x18E7 - 0x18E9
-Miniblock 1:		0x18E7		-		0x18E9		| RW-
-Block 36 end
-
-Block 37 begin
-Zone: 0x19D8 - 0x1A58
-Miniblock 1:		0x19D8		-		0x1A58		| RW-
-Block 37 end
-
-Block 38 begin
-Zone: 0x1AEB - 0x1AED
-Miniblock 1:		0x1AEB		-		0x1AED		| RW-
-Block 38 end
-
-Block 39 begin
-Zone: 0x1B9D - 0x1BBD
-Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
-Block 39 end
-
-Block 40 begin
-Zone: 0x1C3E - 0x1C5E
-Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
-Block 40 end
-
-Block 41 begin
-Zone: 0x1D16 - 0x1D96
-Miniblock 1:		0x1D16		-		0x1D96		| RW-
-Block 41 end
-
-Block 42 begin
-Zone: 0x1D9F - 0x1F9F
-Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
-Block 42 end
-Invalid address for write.
-Invalid address for write.
-Total memory: 0x3C74 bytes
-Free memory: 0x2F2A bytes
-Number of allocated blocks: 42
-Number of allocated miniblocks: 42
-
-Block 1 begin
-Zone: 0x12A - 0x12E
-Miniblock 1:		0x12A		-		0x12E		| RW-
-Block 1 end
-
-Block 2 begin
-Zone: 0x155 - 0x165
-Miniblock 1:		0x155		-		0x165		| RW-
-Block 2 end
-
-Block 3 begin
-Zone: 0x18C - 0x1AC
-Miniblock 1:		0x18C		-		0x1AC		| RW-
-Block 3 end
-
-Block 4 begin
-Zone: 0x1EE - 0x1F2
-Miniblock 1:		0x1EE		-		0x1F2		| RW-
-Block 4 end
-
-Block 5 begin
-Zone: 0x215 - 0x235
-Miniblock 1:		0x215		-		0x235		| RW-
-Block 5 end
-
-Block 6 begin
-Zone: 0x2B9 - 0x2BB
-Miniblock 1:		0x2B9		-		0x2BB		| RW-
-Block 6 end
-
-Block 7 begin
-Zone: 0x367 - 0x467
-Miniblock 1:		0x367		-		0x467		| RW-
-Block 7 end
-
-Block 8 begin
-Zone: 0x4A8 - 0x4B8
-Miniblock 1:		0x4A8		-		0x4B8		| RW-
-Block 8 end
-
-Block 9 begin
-Zone: 0x5AE - 0x5BE
-Miniblock 1:		0x5AE		-		0x5BE		| RW-
-Block 9 end
-
-Block 10 begin
-Zone: 0x5E5 - 0x605
-Miniblock 1:		0x5E5		-		0x605		| RW-
-Block 10 end
-
-Block 11 begin
-Zone: 0x61E - 0x71E
-Miniblock 1:		0x61E		-		0x71E		| RW-
-Block 11 end
-
-Block 12 begin
-Zone: 0x7D6 - 0x816
-Miniblock 1:		0x7D6		-		0x816		| RW-
-Block 12 end
-
-Block 13 begin
-Zone: 0x839 - 0x8B9
-Miniblock 1:		0x839		-		0x8B9		| RW-
-Block 13 end
-
-Block 14 begin
-Zone: 0x8F6 - 0x976
-Miniblock 1:		0x8F6		-		0x976		| RW-
-Block 14 end
-
-Block 15 begin
-Zone: 0xA23 - 0xA63
-Miniblock 1:		0xA23		-		0xA63		| RW-
-Block 15 end
-
-Block 16 begin
-Zone: 0xAE4 - 0xB64
-Miniblock 1:		0xAE4		-		0xB64		| RW-
-Block 16 end
-
-Block 17 begin
-Zone: 0xC6F - 0xC71
-Miniblock 1:		0xC6F		-		0xC71		| RW-
-Block 17 end
-
-Block 18 begin
-Zone: 0xCFC - 0xCFE
-Miniblock 1:		0xCFC		-		0xCFE		| RW-
-Block 18 end
-
-Block 19 begin
-Zone: 0xD5E - 0xD7E
-Miniblock 1:		0xD5E		-		0xD7E		| RW-
-Block 19 end
-
-Block 20 begin
-Zone: 0xE36 - 0xE46
-Miniblock 1:		0xE36		-		0xE46		| RW-
-Block 20 end
-
-Block 21 begin
-Zone: 0xE69 - 0xE89
-Miniblock 1:		0xE69		-		0xE89		| RW-
-Block 21 end
-
-Block 22 begin
-Zone: 0xEB3 - 0xEB7
-Miniblock 1:		0xEB3		-		0xEB7		| RW-
-Block 22 end
-
-Block 23 begin
-Zone: 0xEDD - 0xEE1
-Miniblock 1:		0xEDD		-		0xEE1		| RW-
-Block 23 end
-
-Block 24 begin
-Zone: 0xF40 - 0xFC0
-Miniblock 1:		0xF40		-		0xFC0		| RW-
-Block 24 end
-
-Block 25 begin
-Zone: 0xFD0 - 0xFF0
-Miniblock 1:		0xFD0		-		0xFF0		| RW-
-Block 25 end
-
-Block 26 begin
-Zone: 0x1037 - 0x103F
-Miniblock 1:		0x1037		-		0x103F		| RW-
-Block 26 end
-
-Block 27 begin
-Zone: 0x104A - 0x114A
-Miniblock 1:		0x104A		-		0x114A		| RW-
-Block 27 end
-
-Block 28 begin
-Zone: 0x1236 - 0x1246
-Miniblock 1:		0x1236		-		0x1246		| RW-
-Block 28 end
-
-Block 29 begin
-Zone: 0x1302 - 0x1382
-Miniblock 1:		0x1302		-		0x1382		| RW-
-Block 29 end
-
-Block 30 begin
-Zone: 0x142B - 0x142F
-Miniblock 1:		0x142B		-		0x142F		| RW-
-Block 30 end
-
-Block 31 begin
-Zone: 0x1467 - 0x1477
-Miniblock 1:		0x1467		-		0x1477		| RW-
-Block 31 end
-
-Block 32 begin
-Zone: 0x147D - 0x1481
-Miniblock 1:		0x147D		-		0x1481		| RW-
-Block 32 end
-
-Block 33 begin
-Zone: 0x1488 - 0x14C8
-Miniblock 1:		0x1488		-		0x14C8		| RW-
-Block 33 end
-
-Block 34 begin
-Zone: 0x160C - 0x168C
-Miniblock 1:		0x160C		-		0x168C		| RW-
-Block 34 end
-
-Block 35 begin
-Zone: 0x16B1 - 0x18B1
-Miniblock 1:		0x16B1		-		0x18B1		| RW-
-Block 35 end
-
-Block 36 begin
-Zone: 0x18E7 - 0x18E9
-Miniblock 1:		0x18E7		-		0x18E9		| RW-
-Block 36 end
-
-Block 37 begin
-Zone: 0x19D8 - 0x1A58
-Miniblock 1:		0x19D8		-		0x1A58		| RW-
-Block 37 end
-
-Block 38 begin
-Zone: 0x1AEB - 0x1AED
-Miniblock 1:		0x1AEB		-		0x1AED		| RW-
-Block 38 end
-
-Block 39 begin
-Zone: 0x1B9D - 0x1BBD
-Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
-Block 39 end
-
-Block 40 begin
-Zone: 0x1C3E - 0x1C5E
-Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
-Block 40 end
-
-Block 41 begin
-Zone: 0x1D16 - 0x1D96
-Miniblock 1:		0x1D16		-		0x1D96		| RW-
-Block 41 end
-
-Block 42 begin
-Zone: 0x1D9F - 0x1F9F
-Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
-Block 42 end
-Invalid address for free.
-This zone was already allocated.
-This zone was already allocated.
-Pi
-FREE_BLOCK 9
-READ_BL
-Total memory: 0x3C74 bytes
-Free memory: 0x2F2A bytes
-Number of allocated blocks: 42
-Number of allocated miniblocks: 42
-
-Block 1 begin
-Zone: 0x12A - 0x12E
-Miniblock 1:		0x12A		-		0x12E		| RW-
-Block 1 end
-
-Block 2 begin
-Zone: 0x155 - 0x165
-Miniblock 1:		0x155		-		0x165		| RW-
-Block 2 end
-
-Block 3 begin
-Zone: 0x18C - 0x1AC
-Miniblock 1:		0x18C		-		0x1AC		| RW-
-Block 3 end
-
-Block 4 begin
-Zone: 0x1EE - 0x1F2
-Miniblock 1:		0x1EE		-		0x1F2		| RW-
-Block 4 end
-
-Block 5 begin
-Zone: 0x215 - 0x235
-Miniblock 1:		0x215		-		0x235		| RW-
-Block 5 end
-
-Block 6 begin
-Zone: 0x2B9 - 0x2BB
-Miniblock 1:		0x2B9		-		0x2BB		| RW-
-Block 6 end
-
-Block 7 begin
-Zone: 0x367 - 0x467
-Miniblock 1:		0x367		-		0x467		| RW-
-Block 7 end
-
-Block 8 begin
-Zone: 0x4A8 - 0x4B8
-Miniblock 1:		0x4A8		-		0x4B8		| RW-
-Block 8 end
-
-Block 9 begin
-Zone: 0x5AE - 0x5BE
-Miniblock 1:		0x5AE		-		0x5BE		| RW-
-Block 9 end
-
-Block 10 begin
-Zone: 0x5E5 - 0x605
-Miniblock 1:		0x5E5		-		0x605		| RW-
-Block 10 end
-
-Block 11 begin
-Zone: 0x61E - 0x71E
-Miniblock 1:		0x61E		-		0x71E		| RW-
-Block 11 end
-
-Block 12 begin
-Zone: 0x7D6 - 0x816
-Miniblock 1:		0x7D6		-		0x816		| RW-
-Block 12 end
-
-Block 13 begin
-Zone: 0x839 - 0x8B9
-Miniblock 1:		0x839		-		0x8B9		| RW-
-Block 13 end
-
-Block 14 begin
-Zone: 0x8F6 - 0x976
-Miniblock 1:		0x8F6		-		0x976		| RW-
-Block 14 end
-
-Block 15 begin
-Zone: 0xA23 - 0xA63
-Miniblock 1:		0xA23		-		0xA63		| RW-
-Block 15 end
-
-Block 16 begin
-Zone: 0xAE4 - 0xB64
-Miniblock 1:		0xAE4		-		0xB64		| RW-
-Block 16 end
-
-Block 17 begin
-Zone: 0xC6F - 0xC71
-Miniblock 1:		0xC6F		-		0xC71		| RW-
-Block 17 end
-
-Block 18 begin
-Zone: 0xCFC - 0xCFE
-Miniblock 1:		0xCFC		-		0xCFE		| RW-
-Block 18 end
-
-Block 19 begin
-Zone: 0xD5E - 0xD7E
-Miniblock 1:		0xD5E		-		0xD7E		| RW-
-Block 19 end
-
-Block 20 begin
-Zone: 0xE36 - 0xE46
-Miniblock 1:		0xE36		-		0xE46		| RW-
-Block 20 end
-
-Block 21 begin
-Zone: 0xE69 - 0xE89
-Miniblock 1:		0xE69		-		0xE89		| RW-
-Block 21 end
-
-Block 22 begin
-Zone: 0xEB3 - 0xEB7
-Miniblock 1:		0xEB3		-		0xEB7		| RW-
-Block 22 end
-
-Block 23 begin
-Zone: 0xEDD - 0xEE1
-Miniblock 1:		0xEDD		-		0xEE1		| RW-
-Block 23 end
-
-Block 24 begin
-Zone: 0xF40 - 0xFC0
-Miniblock 1:		0xF40		-		0xFC0		| RW-
-Block 24 end
-
-Block 25 begin
-Zone: 0xFD0 - 0xFF0
-Miniblock 1:		0xFD0		-		0xFF0		| RW-
-Block 25 end
-
-Block 26 begin
-Zone: 0x1037 - 0x103F
-Miniblock 1:		0x1037		-		0x103F		| RW-
-Block 26 end
-
-Block 27 begin
-Zone: 0x104A - 0x114A
-Miniblock 1:		0x104A		-		0x114A		| RW-
-Block 27 end
-
-Block 28 begin
-Zone: 0x1236 - 0x1246
-Miniblock 1:		0x1236		-		0x1246		| RW-
-Block 28 end
-
-Block 29 begin
-Zone: 0x1302 - 0x1382
-Miniblock 1:		0x1302		-		0x1382		| RW-
-Block 29 end
-
-Block 30 begin
-Zone: 0x142B - 0x142F
-Miniblock 1:		0x142B		-		0x142F		| RW-
-Block 30 end
-
-Block 31 begin
-Zone: 0x1467 - 0x1477
-Miniblock 1:		0x1467		-		0x1477		| RW-
-Block 31 end
-
-Block 32 begin
-Zone: 0x147D - 0x1481
-Miniblock 1:		0x147D		-		0x1481		| RW-
-Block 32 end
-
-Block 33 begin
-Zone: 0x1488 - 0x14C8
-Miniblock 1:		0x1488		-		0x14C8		| RW-
-Block 33 end
-
-Block 34 begin
-Zone: 0x160C - 0x168C
-Miniblock 1:		0x160C		-		0x168C		| RW-
-Block 34 end
-
-Block 35 begin
-Zone: 0x16B1 - 0x18B1
-Miniblock 1:		0x16B1		-		0x18B1		| RW-
-Block 35 end
-
-Block 36 begin
-Zone: 0x18E7 - 0x18E9
-Miniblock 1:		0x18E7		-		0x18E9		| RW-
-Block 36 end
-
-Block 37 begin
-Zone: 0x19D8 - 0x1A58
-Miniblock 1:		0x19D8		-		0x1A58		| RW-
-Block 37 end
-
-Block 38 begin
-Zone: 0x1AEB - 0x1AED
-Miniblock 1:		0x1AEB		-		0x1AED		| RW-
-Block 38 end
-
-Block 39 begin
-Zone: 0x1B9D - 0x1BBD
-Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
-Block 39 end
-
-Block 40 begin
-Zone: 0x1C3E - 0x1C5E
-Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
-Block 40 end
-
-Block 41 begin
-Zone: 0x1D16 - 0x1D96
-Miniblock 1:		0x1D16		-		0x1D96		| RW-
-Block 41 end
-
-Block 42 begin
-Zone: 0x1D9F - 0x1F9F
-Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
-Block 42 end
-23207
-ALLOC_BLOCK 9 
-GyUjXslDIsshZYPi
-FREE_BLOCK 9
-READ_BLOCK 938742 23207
+EAD_BLOCK 938742 23207
 ALLOC
+Total memory: 0x3C74 bytes
+Free memory: 0x2F3E bytes
+Number of allocated blocks: 40
+Number of allocated miniblocks: 40
+
+Block 1 begin
+Zone: 0x12A - 0x12E
+Miniblock 1:		0x12A		-		0x12E		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x155 - 0x165
+Miniblock 1:		0x155		-		0x165		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x18C - 0x1AC
+Miniblock 1:		0x18C		-		0x1AC		| RW-
+Block 3 end
+
+Block 4 begin
+Zone: 0x215 - 0x235
+Miniblock 1:		0x215		-		0x235		| RW-
+Block 4 end
+
+Block 5 begin
+Zone: 0x2B9 - 0x2BB
+Miniblock 1:		0x2B9		-		0x2BB		| RW-
+Block 5 end
+
+Block 6 begin
+Zone: 0x367 - 0x467
+Miniblock 1:		0x367		-		0x467		| RW-
+Block 6 end
+
+Block 7 begin
+Zone: 0x4A8 - 0x4B8
+Miniblock 1:		0x4A8		-		0x4B8		| RW-
+Block 7 end
+
+Block 8 begin
+Zone: 0x5AE - 0x5BE
+Miniblock 1:		0x5AE		-		0x5BE		| RW-
+Block 8 end
+
+Block 9 begin
+Zone: 0x5E5 - 0x605
+Miniblock 1:		0x5E5		-		0x605		| RW-
+Block 9 end
+
+Block 10 begin
+Zone: 0x61E - 0x71E
+Miniblock 1:		0x61E		-		0x71E		| RW-
+Block 10 end
+
+Block 11 begin
+Zone: 0x7D6 - 0x816
+Miniblock 1:		0x7D6		-		0x816		| RW-
+Block 11 end
+
+Block 12 begin
+Zone: 0x839 - 0x8B9
+Miniblock 1:		0x839		-		0x8B9		| RW-
+Block 12 end
+
+Block 13 begin
+Zone: 0x8F6 - 0x976
+Miniblock 1:		0x8F6		-		0x976		| RW-
+Block 13 end
+
+Block 14 begin
+Zone: 0xA23 - 0xA63
+Miniblock 1:		0xA23		-		0xA63		| RW-
+Block 14 end
+
+Block 15 begin
+Zone: 0xAE4 - 0xB64
+Miniblock 1:		0xAE4		-		0xB64		| RW-
+Block 15 end
+
+Block 16 begin
+Zone: 0xC6F - 0xC71
+Miniblock 1:		0xC6F		-		0xC71		| RW-
+Block 16 end
+
+Block 17 begin
+Zone: 0xCFC - 0xCFE
+Miniblock 1:		0xCFC		-		0xCFE		| RW-
+Block 17 end
+
+Block 18 begin
+Zone: 0xD5E - 0xD7E
+Miniblock 1:		0xD5E		-		0xD7E		| RW-
+Block 18 end
+
+Block 19 begin
+Zone: 0xE69 - 0xE89
+Miniblock 1:		0xE69		-		0xE89		| RW-
+Block 19 end
+
+Block 20 begin
+Zone: 0xEB3 - 0xEB7
+Miniblock 1:		0xEB3		-		0xEB7		| RW-
+Block 20 end
+
+Block 21 begin
+Zone: 0xEDD - 0xEE1
+Miniblock 1:		0xEDD		-		0xEE1		| RW-
+Block 21 end
+
+Block 22 begin
+Zone: 0xF40 - 0xFC0
+Miniblock 1:		0xF40		-		0xFC0		| RW-
+Block 22 end
+
+Block 23 begin
+Zone: 0xFD0 - 0xFF0
+Miniblock 1:		0xFD0		-		0xFF0		| RW-
+Block 23 end
+
+Block 24 begin
+Zone: 0x1037 - 0x103F
+Miniblock 1:		0x1037		-		0x103F		| RW-
+Block 24 end
+
+Block 25 begin
+Zone: 0x104A - 0x114A
+Miniblock 1:		0x104A		-		0x114A		| RW-
+Block 25 end
+
+Block 26 begin
+Zone: 0x1236 - 0x1246
+Miniblock 1:		0x1236		-		0x1246		| RW-
+Block 26 end
+
+Block 27 begin
+Zone: 0x1302 - 0x1382
+Miniblock 1:		0x1302		-		0x1382		| RW-
+Block 27 end
+
+Block 28 begin
+Zone: 0x142B - 0x142F
+Miniblock 1:		0x142B		-		0x142F		| RW-
+Block 28 end
+
+Block 29 begin
+Zone: 0x1467 - 0x1477
+Miniblock 1:		0x1467		-		0x1477		| RW-
+Block 29 end
+
+Block 30 begin
+Zone: 0x147D - 0x1481
+Miniblock 1:		0x147D		-		0x1481		| RW-
+Block 30 end
+
+Block 31 begin
+Zone: 0x1488 - 0x14C8
+Miniblock 1:		0x1488		-		0x14C8		| RW-
+Block 31 end
+
+Block 32 begin
+Zone: 0x160C - 0x168C
+Miniblock 1:		0x160C		-		0x168C		| RW-
+Block 32 end
+
+Block 33 begin
+Zone: 0x16B1 - 0x18B1
+Miniblock 1:		0x16B1		-		0x18B1		| RW-
+Block 33 end
+
+Block 34 begin
+Zone: 0x18E7 - 0x18E9
+Miniblock 1:		0x18E7		-		0x18E9		| RW-
+Block 34 end
+
+Block 35 begin
+Zone: 0x19D8 - 0x1A58
+Miniblock 1:		0x19D8		-		0x1A58		| RW-
+Block 35 end
+
+Block 36 begin
+Zone: 0x1AEB - 0x1AED
+Miniblock 1:		0x1AEB		-		0x1AED		| RW-
+Block 36 end
+
+Block 37 begin
+Zone: 0x1B9D - 0x1BBD
+Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
+Block 37 end
+
+Block 38 begin
+Zone: 0x1C3E - 0x1C5E
+Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
+Block 38 end
+
+Block 39 begin
+Zone: 0x1D16 - 0x1D96
+Miniblock 1:		0x1D16		-		0x1D96		| RW-
+Block 39 end
+
+Block 40 begin
+Zone: 0x1D9F - 0x1F9F
+Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
+Block 40 end
+jqKGyUjXslDIsshZYPi
+FREE_BLOCK 9
+READ_BLOCK 938742 23207
+ALL
+Total memory: 0x3C74 bytes
+Free memory: 0x2F3E bytes
+Number of allocated blocks: 40
+Number of allocated miniblocks: 40
+
+Block 1 begin
+Zone: 0x12A - 0x12E
+Miniblock 1:		0x12A		-		0x12E		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x155 - 0x165
+Miniblock 1:		0x155		-		0x165		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x18C - 0x1AC
+Miniblock 1:		0x18C		-		0x1AC		| RW-
+Block 3 end
+
+Block 4 begin
+Zone: 0x215 - 0x235
+Miniblock 1:		0x215		-		0x235		| RW-
+Block 4 end
+
+Block 5 begin
+Zone: 0x2B9 - 0x2BB
+Miniblock 1:		0x2B9		-		0x2BB		| RW-
+Block 5 end
+
+Block 6 begin
+Zone: 0x367 - 0x467
+Miniblock 1:		0x367		-		0x467		| RW-
+Block 6 end
+
+Block 7 begin
+Zone: 0x4A8 - 0x4B8
+Miniblock 1:		0x4A8		-		0x4B8		| RW-
+Block 7 end
+
+Block 8 begin
+Zone: 0x5AE - 0x5BE
+Miniblock 1:		0x5AE		-		0x5BE		| RW-
+Block 8 end
+
+Block 9 begin
+Zone: 0x5E5 - 0x605
+Miniblock 1:		0x5E5		-		0x605		| RW-
+Block 9 end
+
+Block 10 begin
+Zone: 0x61E - 0x71E
+Miniblock 1:		0x61E		-		0x71E		| RW-
+Block 10 end
+
+Block 11 begin
+Zone: 0x7D6 - 0x816
+Miniblock 1:		0x7D6		-		0x816		| RW-
+Block 11 end
+
+Block 12 begin
+Zone: 0x839 - 0x8B9
+Miniblock 1:		0x839		-		0x8B9		| RW-
+Block 12 end
+
+Block 13 begin
+Zone: 0x8F6 - 0x976
+Miniblock 1:		0x8F6		-		0x976		| RW-
+Block 13 end
+
+Block 14 begin
+Zone: 0xA23 - 0xA63
+Miniblock 1:		0xA23		-		0xA63		| RW-
+Block 14 end
+
+Block 15 begin
+Zone: 0xAE4 - 0xB64
+Miniblock 1:		0xAE4		-		0xB64		| RW-
+Block 15 end
+
+Block 16 begin
+Zone: 0xC6F - 0xC71
+Miniblock 1:		0xC6F		-		0xC71		| RW-
+Block 16 end
+
+Block 17 begin
+Zone: 0xCFC - 0xCFE
+Miniblock 1:		0xCFC		-		0xCFE		| RW-
+Block 17 end
+
+Block 18 begin
+Zone: 0xD5E - 0xD7E
+Miniblock 1:		0xD5E		-		0xD7E		| RW-
+Block 18 end
+
+Block 19 begin
+Zone: 0xE69 - 0xE89
+Miniblock 1:		0xE69		-		0xE89		| RW-
+Block 19 end
+
+Block 20 begin
+Zone: 0xEB3 - 0xEB7
+Miniblock 1:		0xEB3		-		0xEB7		| RW-
+Block 20 end
+
+Block 21 begin
+Zone: 0xEDD - 0xEE1
+Miniblock 1:		0xEDD		-		0xEE1		| RW-
+Block 21 end
+
+Block 22 begin
+Zone: 0xF40 - 0xFC0
+Miniblock 1:		0xF40		-		0xFC0		| RW-
+Block 22 end
+
+Block 23 begin
+Zone: 0xFD0 - 0xFF0
+Miniblock 1:		0xFD0		-		0xFF0		| RW-
+Block 23 end
+
+Block 24 begin
+Zone: 0x1037 - 0x103F
+Miniblock 1:		0x1037		-		0x103F		| RW-
+Block 24 end
+
+Block 25 begin
+Zone: 0x104A - 0x114A
+Miniblock 1:		0x104A		-		0x114A		| RW-
+Block 25 end
+
+Block 26 begin
+Zone: 0x1236 - 0x1246
+Miniblock 1:		0x1236		-		0x1246		| RW-
+Block 26 end
+
+Block 27 begin
+Zone: 0x1302 - 0x1382
+Miniblock 1:		0x1302		-		0x1382		| RW-
+Block 27 end
+
+Block 28 begin
+Zone: 0x142B - 0x142F
+Miniblock 1:		0x142B		-		0x142F		| RW-
+Block 28 end
+
+Block 29 begin
+Zone: 0x1467 - 0x1477
+Miniblock 1:		0x1467		-		0x1477		| RW-
+Block 29 end
+
+Block 30 begin
+Zone: 0x147D - 0x1481
+Miniblock 1:		0x147D		-		0x1481		| RW-
+Block 30 end
+
+Block 31 begin
+Zone: 0x1488 - 0x14C8
+Miniblock 1:		0x1488		-		0x14C8		| RW-
+Block 31 end
+
+Block 32 begin
+Zone: 0x160C - 0x168C
+Miniblock 1:		0x160C		-		0x168C		| RW-
+Block 32 end
+
+Block 33 begin
+Zone: 0x16B1 - 0x18B1
+Miniblock 1:		0x16B1		-		0x18B1		| RW-
+Block 33 end
+
+Block 34 begin
+Zone: 0x18E7 - 0x18E9
+Miniblock 1:		0x18E7		-		0x18E9		| RW-
+Block 34 end
+
+Block 35 begin
+Zone: 0x19D8 - 0x1A58
+Miniblock 1:		0x19D8		-		0x1A58		| RW-
+Block 35 end
+
+Block 36 begin
+Zone: 0x1AEB - 0x1AED
+Miniblock 1:		0x1AEB		-		0x1AED		| RW-
+Block 36 end
+
+Block 37 begin
+Zone: 0x1B9D - 0x1BBD
+Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
+Block 37 end
+
+Block 38 begin
+Zone: 0x1C3E - 0x1C5E
+Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
+Block 38 end
+
+Block 39 begin
+Zone: 0x1D16 - 0x1D96
+Miniblock 1:		0x1D16		-		0x1D96		| RW-
+Block 39 end
+
+Block 40 begin
+Zone: 0x1D9F - 0x1F9F
+Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
+Block 40 end
+Total memory: 0x3C74 bytes
+Free memory: 0x2F3E bytes
+Number of allocated blocks: 40
+Number of allocated miniblocks: 40
+
+Block 1 begin
+Zone: 0x12A - 0x12E
+Miniblock 1:		0x12A		-		0x12E		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x155 - 0x165
+Miniblock 1:		0x155		-		0x165		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x18C - 0x1AC
+Miniblock 1:		0x18C		-		0x1AC		| RW-
+Block 3 end
+
+Block 4 begin
+Zone: 0x215 - 0x235
+Miniblock 1:		0x215		-		0x235		| RW-
+Block 4 end
+
+Block 5 begin
+Zone: 0x2B9 - 0x2BB
+Miniblock 1:		0x2B9		-		0x2BB		| RW-
+Block 5 end
+
+Block 6 begin
+Zone: 0x367 - 0x467
+Miniblock 1:		0x367		-		0x467		| RW-
+Block 6 end
+
+Block 7 begin
+Zone: 0x4A8 - 0x4B8
+Miniblock 1:		0x4A8		-		0x4B8		| RW-
+Block 7 end
+
+Block 8 begin
+Zone: 0x5AE - 0x5BE
+Miniblock 1:		0x5AE		-		0x5BE		| RW-
+Block 8 end
+
+Block 9 begin
+Zone: 0x5E5 - 0x605
+Miniblock 1:		0x5E5		-		0x605		| RW-
+Block 9 end
+
+Block 10 begin
+Zone: 0x61E - 0x71E
+Miniblock 1:		0x61E		-		0x71E		| RW-
+Block 10 end
+
+Block 11 begin
+Zone: 0x7D6 - 0x816
+Miniblock 1:		0x7D6		-		0x816		| RW-
+Block 11 end
+
+Block 12 begin
+Zone: 0x839 - 0x8B9
+Miniblock 1:		0x839		-		0x8B9		| RW-
+Block 12 end
+
+Block 13 begin
+Zone: 0x8F6 - 0x976
+Miniblock 1:		0x8F6		-		0x976		| RW-
+Block 13 end
+
+Block 14 begin
+Zone: 0xA23 - 0xA63
+Miniblock 1:		0xA23		-		0xA63		| RW-
+Block 14 end
+
+Block 15 begin
+Zone: 0xAE4 - 0xB64
+Miniblock 1:		0xAE4		-		0xB64		| RW-
+Block 15 end
+
+Block 16 begin
+Zone: 0xC6F - 0xC71
+Miniblock 1:		0xC6F		-		0xC71		| RW-
+Block 16 end
+
+Block 17 begin
+Zone: 0xCFC - 0xCFE
+Miniblock 1:		0xCFC		-		0xCFE		| RW-
+Block 17 end
+
+Block 18 begin
+Zone: 0xD5E - 0xD7E
+Miniblock 1:		0xD5E		-		0xD7E		| RW-
+Block 18 end
+
+Block 19 begin
+Zone: 0xE69 - 0xE89
+Miniblock 1:		0xE69		-		0xE89		| RW-
+Block 19 end
+
+Block 20 begin
+Zone: 0xEB3 - 0xEB7
+Miniblock 1:		0xEB3		-		0xEB7		| RW-
+Block 20 end
+
+Block 21 begin
+Zone: 0xEDD - 0xEE1
+Miniblock 1:		0xEDD		-		0xEE1		| RW-
+Block 21 end
+
+Block 22 begin
+Zone: 0xF40 - 0xFC0
+Miniblock 1:		0xF40		-		0xFC0		| RW-
+Block 22 end
+
+Block 23 begin
+Zone: 0xFD0 - 0xFF0
+Miniblock 1:		0xFD0		-		0xFF0		| RW-
+Block 23 end
+
+Block 24 begin
+Zone: 0x1037 - 0x103F
+Miniblock 1:		0x1037		-		0x103F		| RW-
+Block 24 end
+
+Block 25 begin
+Zone: 0x104A - 0x114A
+Miniblock 1:		0x104A		-		0x114A		| RW-
+Block 25 end
+
+Block 26 begin
+Zone: 0x1236 - 0x1246
+Miniblock 1:		0x1236		-		0x1246		| RW-
+Block 26 end
+
+Block 27 begin
+Zone: 0x1302 - 0x1382
+Miniblock 1:		0x1302		-		0x1382		| RW-
+Block 27 end
+
+Block 28 begin
+Zone: 0x142B - 0x142F
+Miniblock 1:		0x142B		-		0x142F		| RW-
+Block 28 end
+
+Block 29 begin
+Zone: 0x1467 - 0x1477
+Miniblock 1:		0x1467		-		0x1477		| RW-
+Block 29 end
+
+Block 30 begin
+Zone: 0x147D - 0x1481
+Miniblock 1:		0x147D		-		0x1481		| RW-
+Block 30 end
+
+Block 31 begin
+Zone: 0x1488 - 0x14C8
+Miniblock 1:		0x1488		-		0x14C8		| RW-
+Block 31 end
+
+Block 32 begin
+Zone: 0x160C - 0x168C
+Miniblock 1:		0x160C		-		0x168C		| RW-
+Block 32 end
+
+Block 33 begin
+Zone: 0x16B1 - 0x18B1
+Miniblock 1:		0x16B1		-		0x18B1		| RW-
+Block 33 end
+
+Block 34 begin
+Zone: 0x18E7 - 0x18E9
+Miniblock 1:		0x18E7		-		0x18E9		| RW-
+Block 34 end
+
+Block 35 begin
+Zone: 0x19D8 - 0x1A58
+Miniblock 1:		0x19D8		-		0x1A58		| RW-
+Block 35 end
+
+Block 36 begin
+Zone: 0x1AEB - 0x1AED
+Miniblock 1:		0x1AEB		-		0x1AED		| RW-
+Block 36 end
+
+Block 37 begin
+Zone: 0x1B9D - 0x1BBD
+Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
+Block 37 end
+
+Block 38 begin
+Zone: 0x1C3E - 0x1C5E
+Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
+Block 38 end
+
+Block 39 begin
+Zone: 0x1D16 - 0x1D96
+Miniblock 1:		0x1D16		-		0x1D96		| RW-
+Block 39 end
+
+Block 40 begin
+Zone: 0x1D9F - 0x1F9F
+Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
+Block 40 end
+DIsshZYPi
+FREE_BLOCK 9
+READ_BLOCK 938742 23207
+
+This zone was already allocated.
+Total memory: 0x3C74 bytes
+Free memory: 0x2F2A bytes
+Number of allocated blocks: 42
+Number of allocated miniblocks: 42
+
+Block 1 begin
+Zone: 0x12A - 0x12E
+Miniblock 1:		0x12A		-		0x12E		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x155 - 0x165
+Miniblock 1:		0x155		-		0x165		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x18C - 0x1AC
+Miniblock 1:		0x18C		-		0x1AC		| RW-
+Block 3 end
+
+Block 4 begin
+Zone: 0x1EE - 0x1F2
+Miniblock 1:		0x1EE		-		0x1F2		| RW-
+Block 4 end
+
+Block 5 begin
+Zone: 0x215 - 0x235
+Miniblock 1:		0x215		-		0x235		| RW-
+Block 5 end
+
+Block 6 begin
+Zone: 0x2B9 - 0x2BB
+Miniblock 1:		0x2B9		-		0x2BB		| RW-
+Block 6 end
+
+Block 7 begin
+Zone: 0x367 - 0x467
+Miniblock 1:		0x367		-		0x467		| RW-
+Block 7 end
+
+Block 8 begin
+Zone: 0x4A8 - 0x4B8
+Miniblock 1:		0x4A8		-		0x4B8		| RW-
+Block 8 end
+
+Block 9 begin
+Zone: 0x5AE - 0x5BE
+Miniblock 1:		0x5AE		-		0x5BE		| RW-
+Block 9 end
+
+Block 10 begin
+Zone: 0x5E5 - 0x605
+Miniblock 1:		0x5E5		-		0x605		| RW-
+Block 10 end
+
+Block 11 begin
+Zone: 0x61E - 0x71E
+Miniblock 1:		0x61E		-		0x71E		| RW-
+Block 11 end
+
+Block 12 begin
+Zone: 0x7D6 - 0x816
+Miniblock 1:		0x7D6		-		0x816		| RW-
+Block 12 end
+
+Block 13 begin
+Zone: 0x839 - 0x8B9
+Miniblock 1:		0x839		-		0x8B9		| RW-
+Block 13 end
+
+Block 14 begin
+Zone: 0x8F6 - 0x976
+Miniblock 1:		0x8F6		-		0x976		| RW-
+Block 14 end
+
+Block 15 begin
+Zone: 0xA23 - 0xA63
+Miniblock 1:		0xA23		-		0xA63		| RW-
+Block 15 end
+
+Block 16 begin
+Zone: 0xAE4 - 0xB64
+Miniblock 1:		0xAE4		-		0xB64		| RW-
+Block 16 end
+
+Block 17 begin
+Zone: 0xC6F - 0xC71
+Miniblock 1:		0xC6F		-		0xC71		| RW-
+Block 17 end
+
+Block 18 begin
+Zone: 0xCFC - 0xCFE
+Miniblock 1:		0xCFC		-		0xCFE		| RW-
+Block 18 end
+
+Block 19 begin
+Zone: 0xD5E - 0xD7E
+Miniblock 1:		0xD5E		-		0xD7E		| RW-
+Block 19 end
+
+Block 20 begin
+Zone: 0xE36 - 0xE46
+Miniblock 1:		0xE36		-		0xE46		| RW-
+Block 20 end
+
+Block 21 begin
+Zone: 0xE69 - 0xE89
+Miniblock 1:		0xE69		-		0xE89		| RW-
+Block 21 end
+
+Block 22 begin
+Zone: 0xEB3 - 0xEB7
+Miniblock 1:		0xEB3		-		0xEB7		| RW-
+Block 22 end
+
+Block 23 begin
+Zone: 0xEDD - 0xEE1
+Miniblock 1:		0xEDD		-		0xEE1		| RW-
+Block 23 end
+
+Block 24 begin
+Zone: 0xF40 - 0xFC0
+Miniblock 1:		0xF40		-		0xFC0		| RW-
+Block 24 end
+
+Block 25 begin
+Zone: 0xFD0 - 0xFF0
+Miniblock 1:		0xFD0		-		0xFF0		| RW-
+Block 25 end
+
+Block 26 begin
+Zone: 0x1037 - 0x103F
+Miniblock 1:		0x1037		-		0x103F		| RW-
+Block 26 end
+
+Block 27 begin
+Zone: 0x104A - 0x114A
+Miniblock 1:		0x104A		-		0x114A		| RW-
+Block 27 end
+
+Block 28 begin
+Zone: 0x1236 - 0x1246
+Miniblock 1:		0x1236		-		0x1246		| RW-
+Block 28 end
+
+Block 29 begin
+Zone: 0x1302 - 0x1382
+Miniblock 1:		0x1302		-		0x1382		| RW-
+Block 29 end
+
+Block 30 begin
+Zone: 0x142B - 0x142F
+Miniblock 1:		0x142B		-		0x142F		| RW-
+Block 30 end
+
+Block 31 begin
+Zone: 0x1467 - 0x1477
+Miniblock 1:		0x1467		-		0x1477		| RW-
+Block 31 end
+
+Block 32 begin
+Zone: 0x147D - 0x1481
+Miniblock 1:		0x147D		-		0x1481		| RW-
+Block 32 end
+
+Block 33 begin
+Zone: 0x1488 - 0x14C8
+Miniblock 1:		0x1488		-		0x14C8		| RW-
+Block 33 end
+
+Block 34 begin
+Zone: 0x160C - 0x168C
+Miniblock 1:		0x160C		-		0x168C		| RW-
+Block 34 end
+
+Block 35 begin
+Zone: 0x16B1 - 0x18B1
+Miniblock 1:		0x16B1		-		0x18B1		| RW-
+Block 35 end
+
+Block 36 begin
+Zone: 0x18E7 - 0x18E9
+Miniblock 1:		0x18E7		-		0x18E9		| RW-
+Block 36 end
+
+Block 37 begin
+Zone: 0x19D8 - 0x1A58
+Miniblock 1:		0x19D8		-		0x1A58		| RW-
+Block 37 end
+
+Block 38 begin
+Zone: 0x1AEB - 0x1AED
+Miniblock 1:		0x1AEB		-		0x1AED		| RW-
+Block 38 end
+
+Block 39 begin
+Zone: 0x1B9D - 0x1BBD
+Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
+Block 39 end
+
+Block 40 begin
+Zone: 0x1C3E - 0x1C5E
+Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
+Block 40 end
+
+Block 41 begin
+Zone: 0x1D16 - 0x1D96
+Miniblock 1:		0x1D16		-		0x1D96		| RW-
+Block 41 end
+
+Block 42 begin
+Zone: 0x1D9F - 0x1F9F
+Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
+Block 42 end
+Total memory: 0x3C74 bytes
+Free memory: 0x2F2A bytes
+Number of allocated blocks: 42
+Number of allocated miniblocks: 42
+
+Block 1 begin
+Zone: 0x12A - 0x12E
+Miniblock 1:		0x12A		-		0x12E		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x155 - 0x165
+Miniblock 1:		0x155		-		0x165		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x18C - 0x1AC
+Miniblock 1:		0x18C		-		0x1AC		| RW-
+Block 3 end
+
+Block 4 begin
+Zone: 0x1EE - 0x1F2
+Miniblock 1:		0x1EE		-		0x1F2		| RW-
+Block 4 end
+
+Block 5 begin
+Zone: 0x215 - 0x235
+Miniblock 1:		0x215		-		0x235		| RW-
+Block 5 end
+
+Block 6 begin
+Zone: 0x2B9 - 0x2BB
+Miniblock 1:		0x2B9		-		0x2BB		| RW-
+Block 6 end
+
+Block 7 begin
+Zone: 0x367 - 0x467
+Miniblock 1:		0x367		-		0x467		| RW-
+Block 7 end
+
+Block 8 begin
+Zone: 0x4A8 - 0x4B8
+Miniblock 1:		0x4A8		-		0x4B8		| RW-
+Block 8 end
+
+Block 9 begin
+Zone: 0x5AE - 0x5BE
+Miniblock 1:		0x5AE		-		0x5BE		| RW-
+Block 9 end
+
+Block 10 begin
+Zone: 0x5E5 - 0x605
+Miniblock 1:		0x5E5		-		0x605		| RW-
+Block 10 end
+
+Block 11 begin
+Zone: 0x61E - 0x71E
+Miniblock 1:		0x61E		-		0x71E		| RW-
+Block 11 end
+
+Block 12 begin
+Zone: 0x7D6 - 0x816
+Miniblock 1:		0x7D6		-		0x816		| RW-
+Block 12 end
+
+Block 13 begin
+Zone: 0x839 - 0x8B9
+Miniblock 1:		0x839		-		0x8B9		| RW-
+Block 13 end
+
+Block 14 begin
+Zone: 0x8F6 - 0x976
+Miniblock 1:		0x8F6		-		0x976		| RW-
+Block 14 end
+
+Block 15 begin
+Zone: 0xA23 - 0xA63
+Miniblock 1:		0xA23		-		0xA63		| RW-
+Block 15 end
+
+Block 16 begin
+Zone: 0xAE4 - 0xB64
+Miniblock 1:		0xAE4		-		0xB64		| RW-
+Block 16 end
+
+Block 17 begin
+Zone: 0xC6F - 0xC71
+Miniblock 1:		0xC6F		-		0xC71		| RW-
+Block 17 end
+
+Block 18 begin
+Zone: 0xCFC - 0xCFE
+Miniblock 1:		0xCFC		-		0xCFE		| RW-
+Block 18 end
+
+Block 19 begin
+Zone: 0xD5E - 0xD7E
+Miniblock 1:		0xD5E		-		0xD7E		| RW-
+Block 19 end
+
+Block 20 begin
+Zone: 0xE36 - 0xE46
+Miniblock 1:		0xE36		-		0xE46		| RW-
+Block 20 end
+
+Block 21 begin
+Zone: 0xE69 - 0xE89
+Miniblock 1:		0xE69		-		0xE89		| RW-
+Block 21 end
+
+Block 22 begin
+Zone: 0xEB3 - 0xEB7
+Miniblock 1:		0xEB3		-		0xEB7		| RW-
+Block 22 end
+
+Block 23 begin
+Zone: 0xEDD - 0xEE1
+Miniblock 1:		0xEDD		-		0xEE1		| RW-
+Block 23 end
+
+Block 24 begin
+Zone: 0xF40 - 0xFC0
+Miniblock 1:		0xF40		-		0xFC0		| RW-
+Block 24 end
+
+Block 25 begin
+Zone: 0xFD0 - 0xFF0
+Miniblock 1:		0xFD0		-		0xFF0		| RW-
+Block 25 end
+
+Block 26 begin
+Zone: 0x1037 - 0x103F
+Miniblock 1:		0x1037		-		0x103F		| RW-
+Block 26 end
+
+Block 27 begin
+Zone: 0x104A - 0x114A
+Miniblock 1:		0x104A		-		0x114A		| RW-
+Block 27 end
+
+Block 28 begin
+Zone: 0x1236 - 0x1246
+Miniblock 1:		0x1236		-		0x1246		| RW-
+Block 28 end
+
+Block 29 begin
+Zone: 0x1302 - 0x1382
+Miniblock 1:		0x1302		-		0x1382		| RW-
+Block 29 end
+
+Block 30 begin
+Zone: 0x142B - 0x142F
+Miniblock 1:		0x142B		-		0x142F		| RW-
+Block 30 end
+
+Block 31 begin
+Zone: 0x1467 - 0x1477
+Miniblock 1:		0x1467		-		0x1477		| RW-
+Block 31 end
+
+Block 32 begin
+Zone: 0x147D - 0x1481
+Miniblock 1:		0x147D		-		0x1481		| RW-
+Block 32 end
+
+Block 33 begin
+Zone: 0x1488 - 0x14C8
+Miniblock 1:		0x1488		-		0x14C8		| RW-
+Block 33 end
+
+Block 34 begin
+Zone: 0x160C - 0x168C
+Miniblock 1:		0x160C		-		0x168C		| RW-
+Block 34 end
+
+Block 35 begin
+Zone: 0x16B1 - 0x18B1
+Miniblock 1:		0x16B1		-		0x18B1		| RW-
+Block 35 end
+
+Block 36 begin
+Zone: 0x18E7 - 0x18E9
+Miniblock 1:		0x18E7		-		0x18E9		| RW-
+Block 36 end
+
+Block 37 begin
+Zone: 0x19D8 - 0x1A58
+Miniblock 1:		0x19D8		-		0x1A58		| RW-
+Block 37 end
+
+Block 38 begin
+Zone: 0x1AEB - 0x1AED
+Miniblock 1:		0x1AEB		-		0x1AED		| RW-
+Block 38 end
+
+Block 39 begin
+Zone: 0x1B9D - 0x1BBD
+Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
+Block 39 end
+
+Block 40 begin
+Zone: 0x1C3E - 0x1C5E
+Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
+Block 40 end
+
+Block 41 begin
+Zone: 0x1D16 - 0x1D96
+Miniblock 1:		0x1D16		-		0x1D96		| RW-
+Block 41 end
+
+Block 42 begin
+Zone: 0x1D9F - 0x1F9F
+Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
+Block 42 end
+Invalid address for write.
+Invalid address for write.
+Total memory: 0x3C74 bytes
+Free memory: 0x2F2A bytes
+Number of allocated blocks: 42
+Number of allocated miniblocks: 42
+
+Block 1 begin
+Zone: 0x12A - 0x12E
+Miniblock 1:		0x12A		-		0x12E		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x155 - 0x165
+Miniblock 1:		0x155		-		0x165		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x18C - 0x1AC
+Miniblock 1:		0x18C		-		0x1AC		| RW-
+Block 3 end
+
+Block 4 begin
+Zone: 0x1EE - 0x1F2
+Miniblock 1:		0x1EE		-		0x1F2		| RW-
+Block 4 end
+
+Block 5 begin
+Zone: 0x215 - 0x235
+Miniblock 1:		0x215		-		0x235		| RW-
+Block 5 end
+
+Block 6 begin
+Zone: 0x2B9 - 0x2BB
+Miniblock 1:		0x2B9		-		0x2BB		| RW-
+Block 6 end
+
+Block 7 begin
+Zone: 0x367 - 0x467
+Miniblock 1:		0x367		-		0x467		| RW-
+Block 7 end
+
+Block 8 begin
+Zone: 0x4A8 - 0x4B8
+Miniblock 1:		0x4A8		-		0x4B8		| RW-
+Block 8 end
+
+Block 9 begin
+Zone: 0x5AE - 0x5BE
+Miniblock 1:		0x5AE		-		0x5BE		| RW-
+Block 9 end
+
+Block 10 begin
+Zone: 0x5E5 - 0x605
+Miniblock 1:		0x5E5		-		0x605		| RW-
+Block 10 end
+
+Block 11 begin
+Zone: 0x61E - 0x71E
+Miniblock 1:		0x61E		-		0x71E		| RW-
+Block 11 end
+
+Block 12 begin
+Zone: 0x7D6 - 0x816
+Miniblock 1:		0x7D6		-		0x816		| RW-
+Block 12 end
+
+Block 13 begin
+Zone: 0x839 - 0x8B9
+Miniblock 1:		0x839		-		0x8B9		| RW-
+Block 13 end
+
+Block 14 begin
+Zone: 0x8F6 - 0x976
+Miniblock 1:		0x8F6		-		0x976		| RW-
+Block 14 end
+
+Block 15 begin
+Zone: 0xA23 - 0xA63
+Miniblock 1:		0xA23		-		0xA63		| RW-
+Block 15 end
+
+Block 16 begin
+Zone: 0xAE4 - 0xB64
+Miniblock 1:		0xAE4		-		0xB64		| RW-
+Block 16 end
+
+Block 17 begin
+Zone: 0xC6F - 0xC71
+Miniblock 1:		0xC6F		-		0xC71		| RW-
+Block 17 end
+
+Block 18 begin
+Zone: 0xCFC - 0xCFE
+Miniblock 1:		0xCFC		-		0xCFE		| RW-
+Block 18 end
+
+Block 19 begin
+Zone: 0xD5E - 0xD7E
+Miniblock 1:		0xD5E		-		0xD7E		| RW-
+Block 19 end
+
+Block 20 begin
+Zone: 0xE36 - 0xE46
+Miniblock 1:		0xE36		-		0xE46		| RW-
+Block 20 end
+
+Block 21 begin
+Zone: 0xE69 - 0xE89
+Miniblock 1:		0xE69		-		0xE89		| RW-
+Block 21 end
+
+Block 22 begin
+Zone: 0xEB3 - 0xEB7
+Miniblock 1:		0xEB3		-		0xEB7		| RW-
+Block 22 end
+
+Block 23 begin
+Zone: 0xEDD - 0xEE1
+Miniblock 1:		0xEDD		-		0xEE1		| RW-
+Block 23 end
+
+Block 24 begin
+Zone: 0xF40 - 0xFC0
+Miniblock 1:		0xF40		-		0xFC0		| RW-
+Block 24 end
+
+Block 25 begin
+Zone: 0xFD0 - 0xFF0
+Miniblock 1:		0xFD0		-		0xFF0		| RW-
+Block 25 end
+
+Block 26 begin
+Zone: 0x1037 - 0x103F
+Miniblock 1:		0x1037		-		0x103F		| RW-
+Block 26 end
+
+Block 27 begin
+Zone: 0x104A - 0x114A
+Miniblock 1:		0x104A		-		0x114A		| RW-
+Block 27 end
+
+Block 28 begin
+Zone: 0x1236 - 0x1246
+Miniblock 1:		0x1236		-		0x1246		| RW-
+Block 28 end
+
+Block 29 begin
+Zone: 0x1302 - 0x1382
+Miniblock 1:		0x1302		-		0x1382		| RW-
+Block 29 end
+
+Block 30 begin
+Zone: 0x142B - 0x142F
+Miniblock 1:		0x142B		-		0x142F		| RW-
+Block 30 end
+
+Block 31 begin
+Zone: 0x1467 - 0x1477
+Miniblock 1:		0x1467		-		0x1477		| RW-
+Block 31 end
+
+Block 32 begin
+Zone: 0x147D - 0x1481
+Miniblock 1:		0x147D		-		0x1481		| RW-
+Block 32 end
+
+Block 33 begin
+Zone: 0x1488 - 0x14C8
+Miniblock 1:		0x1488		-		0x14C8		| RW-
+Block 33 end
+
+Block 34 begin
+Zone: 0x160C - 0x168C
+Miniblock 1:		0x160C		-		0x168C		| RW-
+Block 34 end
+
+Block 35 begin
+Zone: 0x16B1 - 0x18B1
+Miniblock 1:		0x16B1		-		0x18B1		| RW-
+Block 35 end
+
+Block 36 begin
+Zone: 0x18E7 - 0x18E9
+Miniblock 1:		0x18E7		-		0x18E9		| RW-
+Block 36 end
+
+Block 37 begin
+Zone: 0x19D8 - 0x1A58
+Miniblock 1:		0x19D8		-		0x1A58		| RW-
+Block 37 end
+
+Block 38 begin
+Zone: 0x1AEB - 0x1AED
+Miniblock 1:		0x1AEB		-		0x1AED		| RW-
+Block 38 end
+
+Block 39 begin
+Zone: 0x1B9D - 0x1BBD
+Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
+Block 39 end
+
+Block 40 begin
+Zone: 0x1C3E - 0x1C5E
+Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
+Block 40 end
+
+Block 41 begin
+Zone: 0x1D16 - 0x1D96
+Miniblock 1:		0x1D16		-		0x1D96		| RW-
+Block 41 end
+
+Block 42 begin
+Zone: 0x1D9F - 0x1F9F
+Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
+Block 42 end
+Invalid address for free.
+This zone was already allocated.
+This zone was already allocated.
+slDIsshZYPi
+FREE_BLOCK 
+Total memory: 0x3C74 bytes
+Free memory: 0x2F2A bytes
+Number of allocated blocks: 42
+Number of allocated miniblocks: 42
+
+Block 1 begin
+Zone: 0x12A - 0x12E
+Miniblock 1:		0x12A		-		0x12E		| RW-
+Block 1 end
+
+Block 2 begin
+Zone: 0x155 - 0x165
+Miniblock 1:		0x155		-		0x165		| RW-
+Block 2 end
+
+Block 3 begin
+Zone: 0x18C - 0x1AC
+Miniblock 1:		0x18C		-		0x1AC		| RW-
+Block 3 end
+
+Block 4 begin
+Zone: 0x1EE - 0x1F2
+Miniblock 1:		0x1EE		-		0x1F2		| RW-
+Block 4 end
+
+Block 5 begin
+Zone: 0x215 - 0x235
+Miniblock 1:		0x215		-		0x235		| RW-
+Block 5 end
+
+Block 6 begin
+Zone: 0x2B9 - 0x2BB
+Miniblock 1:		0x2B9		-		0x2BB		| RW-
+Block 6 end
+
+Block 7 begin
+Zone: 0x367 - 0x467
+Miniblock 1:		0x367		-		0x467		| RW-
+Block 7 end
+
+Block 8 begin
+Zone: 0x4A8 - 0x4B8
+Miniblock 1:		0x4A8		-		0x4B8		| RW-
+Block 8 end
+
+Block 9 begin
+Zone: 0x5AE - 0x5BE
+Miniblock 1:		0x5AE		-		0x5BE		| RW-
+Block 9 end
+
+Block 10 begin
+Zone: 0x5E5 - 0x605
+Miniblock 1:		0x5E5		-		0x605		| RW-
+Block 10 end
+
+Block 11 begin
+Zone: 0x61E - 0x71E
+Miniblock 1:		0x61E		-		0x71E		| RW-
+Block 11 end
+
+Block 12 begin
+Zone: 0x7D6 - 0x816
+Miniblock 1:		0x7D6		-		0x816		| RW-
+Block 12 end
+
+Block 13 begin
+Zone: 0x839 - 0x8B9
+Miniblock 1:		0x839		-		0x8B9		| RW-
+Block 13 end
+
+Block 14 begin
+Zone: 0x8F6 - 0x976
+Miniblock 1:		0x8F6		-		0x976		| RW-
+Block 14 end
+
+Block 15 begin
+Zone: 0xA23 - 0xA63
+Miniblock 1:		0xA23		-		0xA63		| RW-
+Block 15 end
+
+Block 16 begin
+Zone: 0xAE4 - 0xB64
+Miniblock 1:		0xAE4		-		0xB64		| RW-
+Block 16 end
+
+Block 17 begin
+Zone: 0xC6F - 0xC71
+Miniblock 1:		0xC6F		-		0xC71		| RW-
+Block 17 end
+
+Block 18 begin
+Zone: 0xCFC - 0xCFE
+Miniblock 1:		0xCFC		-		0xCFE		| RW-
+Block 18 end
+
+Block 19 begin
+Zone: 0xD5E - 0xD7E
+Miniblock 1:		0xD5E		-		0xD7E		| RW-
+Block 19 end
+
+Block 20 begin
+Zone: 0xE36 - 0xE46
+Miniblock 1:		0xE36		-		0xE46		| RW-
+Block 20 end
+
+Block 21 begin
+Zone: 0xE69 - 0xE89
+Miniblock 1:		0xE69		-		0xE89		| RW-
+Block 21 end
+
+Block 22 begin
+Zone: 0xEB3 - 0xEB7
+Miniblock 1:		0xEB3		-		0xEB7		| RW-
+Block 22 end
+
+Block 23 begin
+Zone: 0xEDD - 0xEE1
+Miniblock 1:		0xEDD		-		0xEE1		| RW-
+Block 23 end
+
+Block 24 begin
+Zone: 0xF40 - 0xFC0
+Miniblock 1:		0xF40		-		0xFC0		| RW-
+Block 24 end
+
+Block 25 begin
+Zone: 0xFD0 - 0xFF0
+Miniblock 1:		0xFD0		-		0xFF0		| RW-
+Block 25 end
+
+Block 26 begin
+Zone: 0x1037 - 0x103F
+Miniblock 1:		0x1037		-		0x103F		| RW-
+Block 26 end
+
+Block 27 begin
+Zone: 0x104A - 0x114A
+Miniblock 1:		0x104A		-		0x114A		| RW-
+Block 27 end
+
+Block 28 begin
+Zone: 0x1236 - 0x1246
+Miniblock 1:		0x1236		-		0x1246		| RW-
+Block 28 end
+
+Block 29 begin
+Zone: 0x1302 - 0x1382
+Miniblock 1:		0x1302		-		0x1382		| RW-
+Block 29 end
+
+Block 30 begin
+Zone: 0x142B - 0x142F
+Miniblock 1:		0x142B		-		0x142F		| RW-
+Block 30 end
+
+Block 31 begin
+Zone: 0x1467 - 0x1477
+Miniblock 1:		0x1467		-		0x1477		| RW-
+Block 31 end
+
+Block 32 begin
+Zone: 0x147D - 0x1481
+Miniblock 1:		0x147D		-		0x1481		| RW-
+Block 32 end
+
+Block 33 begin
+Zone: 0x1488 - 0x14C8
+Miniblock 1:		0x1488		-		0x14C8		| RW-
+Block 33 end
+
+Block 34 begin
+Zone: 0x160C - 0x168C
+Miniblock 1:		0x160C		-		0x168C		| RW-
+Block 34 end
+
+Block 35 begin
+Zone: 0x16B1 - 0x18B1
+Miniblock 1:		0x16B1		-		0x18B1		| RW-
+Block 35 end
+
+Block 36 begin
+Zone: 0x18E7 - 0x18E9
+Miniblock 1:		0x18E7		-		0x18E9		| RW-
+Block 36 end
+
+Block 37 begin
+Zone: 0x19D8 - 0x1A58
+Miniblock 1:		0x19D8		-		0x1A58		| RW-
+Block 37 end
+
+Block 38 begin
+Zone: 0x1AEB - 0x1AED
+Miniblock 1:		0x1AEB		-		0x1AED		| RW-
+Block 38 end
+
+Block 39 begin
+Zone: 0x1B9D - 0x1BBD
+Miniblock 1:		0x1B9D		-		0x1BBD		| RW-
+Block 39 end
+
+Block 40 begin
+Zone: 0x1C3E - 0x1C5E
+Miniblock 1:		0x1C3E		-		0x1C5E		| RW-
+Block 40 end
+
+Block 41 begin
+Zone: 0x1D16 - 0x1D96
+Miniblock 1:		0x1D16		-		0x1D96		| RW-
+Block 41 end
+
+Block 42 begin
+Zone: 0x1D9F - 0x1F9F
+Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
+Block 42 end
+K 938742 23207
+ALLOC
+nPNrQtjqKGyUjXslDIsshZYPi
+FREE_BLOCK 9
+READ_BLOCK 938742 23
 Invalid address for write.
 Total memory: 0x3C74 bytes
 Free memory: 0x2F28 bytes
@@ -8280,8 +8275,8 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 43 end
 Invalid address for free.
 This zone was already allocated.
-20
-LOC
+93
+ 23
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2F28 bytes
@@ -8941,9 +8936,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 43 end
 Invalid address for free.
-hZYPi
-FREE_BLOCK 9
-REA
+UjXslDIsshZYPi
+FREE_BL
 Total memory: 0x3C74 bytes
 Free memory: 0x2F28 bytes
 Number of allocated blocks: 43
@@ -9163,13 +9157,13 @@ Block 43 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 43 end
-IsshZYPi
+KGyUjXslDIsshZYPi
 FREE_BLOCK 9
-READ_BLOC
+
 Invalid address for write.
 This zone was already allocated.
 This zone was already allocated.
-L
+7
 Invalid address for write.
 Total memory: 0x3C74 bytes
 Free memory: 0x2F20 bytes
@@ -9400,8 +9394,9 @@ This zone was already allocated.
 This zone was already allocated.
 Invalid address for free.
 Invalid address for write.
-D_BLOCK 938742 23207
-ALLOC_BLOCK 
+OCK 9
+READ_BLOCK 938742 23207
+ALL
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2F00 bytes
@@ -9634,10 +9629,9 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 45 end
 Invalid address for write.
 This zone was already allocated.
-i
+lDIsshZYPi
 FREE_BLOCK 9
-READ_BLOCK 938742 23207
-A
+READ_BLOCK 93874
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2EFE bytes
@@ -10116,8 +10110,9 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 47 end
 This zone was already allocated.
-_BLOCK 9387
-GyUjXslDIs
+CK 9
+READ_B
+nPNrQtjqKG
 Invalid address for free.
 This zone was already allocated.
 Invalid address for write.
@@ -10125,9 +10120,9 @@ Warning: size was bigger than the block size. Writing 9 characters.
 Invalid address for write.
 Invalid address for free.
 Invalid address for free.
-BLOCK 9
-READ_BLOCK 938742 23207
-ALL
+YPi
+FREE_BLOCK 9
+READ_BLOCK 938742 
 Invalid address for write.
 Total memory: 0x3C74 bytes
 Free memory: 0x2E7E bytes
@@ -10374,20 +10369,19 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 48 end
 Invalid address for write.
-_BLOCK 938742 23207
-ALLOC_B
-
+CK 9
+READ_BLOCK 938742 2320
+DIsshZYPi
 FREE_BLOCK 9
 READ_BLOCK 938742 23207
-ALLOC_BLOCK 9
+ALLO
 Invalid address for write.
-IsshZYPi
+KGyUjXslDIsshZYPi
 FREE_BLOCK 9
-READ_BLO
-yUjXslDIsshZYPi
+PNrQtjqKGyUjXslDIsshZYPi
 FREE_BLOCK 9
-READ_BLOCK 9387
-yUjXs
+READ_B
+PNrQt
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2E7E bytes
@@ -10633,12 +10627,11 @@ Block 48 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 48 end
-yUjXslDIsshZYPi
-F
+PNrQtjqKGyUjXslDI
 Invalid address for free.
-BLOCK 9
-READ_BLOCK 938742 23207
-ALLOC_B
+YPi
+FREE_BLOCK 9
+READ_BLOCK 938742 2320
 Invalid address for write.
 Invalid address for write.
 This zone was already allocated.
@@ -11154,9 +11147,10 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 50 end
 Invalid address for write.
-LOCK 9
+Pi
+FREE_BLOCK 9
 READ_BLOCK 938742 23207
-ALLOC_BLOCK 9
+ALLO
 This zone was already allocated.
 Invalid address for write.
 Invalid address for free.
@@ -13574,8 +13568,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 53 end
 Invalid address for free.
-K 938742 23207
-ALLOC_BLOCK 9 1
+READ_BLOCK 938742 23207
+ALLOC_
 Total memory: 0x3C74 bytes
 Free memory: 0x2E20 bytes
 Number of allocated blocks: 53
@@ -14385,7 +14379,7 @@ Block 53 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 53 end
-9
+O
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2E20 bytes
@@ -14930,7 +14924,7 @@ Block 53 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 53 end
-5
+8
 Invalid address for write.
 Total memory: 0x3C74 bytes
 Free memory: 0x2E20 bytes
@@ -15750,8 +15744,9 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 53 end
 This zone was already allocated.
 Warning: size was bigger than the block size. Writing 30 characters.
-LOC_BLOCK 2028439863 258633899
-ALLOC_BLOCK 7EAD_BLOC
+CK 9 1
+ALLOC_BLOCK 2028439863 258633899
+ALLOC_BLOCK 7
 Invalid address for read.
 Invalid address for free.
 Invalid address for free.
@@ -16035,8 +16030,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 54 end
 Warning: size was bigger than the block size. Reading 30 characters.
-8633899
-ALLOC_BLOCK 7EAD_BLOC
+439863 258633899
+ALLOC_BLOCK 7
 Invalid address for free.
 Invalid address for write.
 This zone was already allocated.
@@ -16322,7 +16317,7 @@ Block 55 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 55 end
-
+AAA
 Invalid address for read.
 Invalid address for read.
 Invalid address for write.
@@ -18995,7 +18990,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 59 end
 Invalid address for write.
-EAD_BLOCK 64913
+fVHh
+READ_BLOCK
 Total memory: 0x3C74 bytes
 Free memory: 0x2D6A bytes
 Number of allocated blocks: 59
@@ -19598,10 +19594,10 @@ Block 59 end
 Invalid address for free.
 Warning: size was bigger than the block size. Writing 157 characters.
 This zone was already allocated.
-C
+A
 Invalid address for write.
-
-FREE_BLOCK 35112LO
+ 1
+FREE_BLOCK 35112
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2D68 bytes
@@ -19912,7 +19908,8 @@ Invalid address for free.
 This zone was already allocated.
 Invalid address for read.
 Warning: size was bigger than the block size. Writing 63 characters.
-
+soOYgMtAij
+ALLOC_BLOCK 11540956 19
 Total memory: 0x3C74 bytes
 Free memory: 0x2D64 bytes
 Number of allocated blocks: 61
@@ -20855,7 +20852,8 @@ Invalid address for free.
 This zone was already allocated.
 This zone was already allocated.
 Warning: size was bigger than the block size. Reading 45 characters.
-
+_BLOCK 11540956 1921860
+READ_BLOCK 6141226746
 Total memory: 0x3C74 bytes
 Free memory: 0x2D62 bytes
 Number of allocated blocks: 62
@@ -22118,6 +22116,7 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 62 end
 Invalid address for free.
+OC_BLOCK 11540956 1921860
 
 Invalid address for write.
 This zone was already allocated.
@@ -22451,7 +22450,7 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 65 end
 Invalid address for write.
-BLOCK 2 1
+D_BLOCK 2
 Total memory: 0x3C74 bytes
 Free memory: 0x2D20 bytes
 Number of allocated blocks: 65
@@ -22782,7 +22781,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 65 end
 This zone was already allocated.
-
+60
+READ
 Invalid address for write.
 This zone was already allocated.
 Invalid address for free.
@@ -23121,7 +23121,7 @@ Invalid address for free.
 Invalid address for write.
 Invalid address for write.
 Warning: size was bigger than the block size. Reading 18 characters.
-
+D_BLOCK 6141226746
 Total memory: 0x3C74 bytes
 Free memory: 0x2D1C bytes
 Number of allocated blocks: 66
@@ -23804,10 +23804,12 @@ Warning: size was bigger than the block size. Writing 19 characters.
 Invalid address for write.
 This zone was already allocated.
 Warning: size was bigger than the block size. Reading 49 characters.
-
-
+LOCK 926CK 11540956 1921860
+READ_BLOCK 6141226746
+26746
 Invalid address for free.
-
+BLOCK 4348276 856254
+FREE_BLOCK 926CK 11
 This zone was already allocated.
 Invalid address for free.
 This zone was already allocated.
@@ -24152,7 +24154,8 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 67 end
 Invalid address for free.
 Invalid address for write.
-
+BLOCK 4348276 856254
+FREE_
 Total memory: 0x3C74 bytes
 Free memory: 0x2D1A bytes
 Number of allocated blocks: 67
@@ -25183,11 +25186,11 @@ Invalid address for write.
 Invalid address for free.
 This zone was already allocated.
 Invalid address for write.
-_B
+EE
 This zone was already allocated.
 Invalid address for write.
- 1
-FREE_BLOCK
+ 2 1
+FREE_BLO
 Total memory: 0x3C74 bytes
 Free memory: 0x2CE6 bytes
 Number of allocated blocks: 72
@@ -25556,10 +25559,10 @@ Invalid address for free.
 Invalid address for free.
 Invalid address for read.
 Invalid address for free.
-K 649136331
+D_BLOCK 54 
 Invalid address for write.
-LOCK 2 1
-FREE_
+_BLOCK 2 1
+FRE
 This zone was already allocated.
 This zone was already allocated.
 Total memory: 0x3C74 bytes
@@ -25926,8 +25929,8 @@ Block 72 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 72 end
-_BL
-LLOC_
+AD_
+YoBJN
 Total memory: 0x3C74 bytes
 Free memory: 0x2CE6 bytes
 Number of allocated blocks: 72
@@ -26296,14 +26299,18 @@ Block 72 end
 Invalid address for write.
 Invalid address for free.
 This zone was already allocated.
-
+X
+F
 Warning: size was bigger than the block size. Writing 50 characters.
-
-Is
+0035 8546410
+A
+KG
+V
 READ_BLOCK 2 1
-FREE_BLOCK 35112LOC
+FREE_BLOCK 35112A
 Invalid address for free.
-
+p
+READ_
 Invalid address for write.
 Total memory: 0x3C74 bytes
 Free memory: 0x2CB6 bytes
@@ -27437,14 +27444,14 @@ Block 75 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 75 end
-
+CUCLsWjsp
 Invalid address for write.
 Warning: size was bigger than the block size. Writing 24 characters.
 Invalid address for free.
 Invalid address for write.
 This zone was already allocated.
 Invalid address for free.
-
+GxzA
 Invalid address for write.
 This zone was already allocated.
 Invalid address for free.
@@ -27839,9 +27846,13 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 77 end
 Invalid address for free.
+IsEPBnHRNeIOsTIPwqk
+READ_BLOCK 100 5
+FREE_BLOCK 68
+WuoCUCLsWjsp
+READ_BLOCK 57130035 854
 
-
-
+READ_BLOCK 4348
 This zone was already allocated.
 Invalid address for write.
 Total memory: 0x3C74 bytes
@@ -28240,8 +28251,8 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 78 end
 Invalid address for free.
 Invalid address for free.
-1
-FREE_BLOCK 35112L
+2 1
+FREE_BLOCK 3511
 Total memory: 0x3C74 bytes
 Free memory: 0x2C8C bytes
 Number of allocated blocks: 79
@@ -28641,7 +28652,9 @@ Block 79 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 79 end
-
+RIsEPBnHRNeIOsTIPwqk
+READ_BLOCK 100 5
+FR
 Invalid address for read.
 Total memory: 0x3C74 bytes
 Free memory: 0x2C8C bytes
@@ -29045,7 +29058,7 @@ Block 79 end
 This zone was already allocated.
 This zone was already allocated.
 Invalid address for free.
-
+LOCK 4348276 8
 Invalid address for write.
 This zone was already allocated.
 Invalid address for write.
@@ -30253,7 +30266,10 @@ This zone was already allocated.
 Invalid address for free.
 Invalid address for write.
 Invalid address for free.
-
+ 100 5
+FREE_BLOCK 6804
+READ_BLOCK 100 5
+READ_BLOCK 43482
 Invalid address for write.
 Total memory: 0x3C74 bytes
 Free memory: 0x2C88 bytes
@@ -31058,12 +31074,12 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 79 end
 Invalid address for free.
 Invalid address for write.
-
-yUjXslDIsshZYPi
-
+0
+ALLOC
+PNrQtjqKGyUjXslD
 Invalid address for free.
 Invalid address for write.
-938742 23207
+AD_BLOCK 938
 Invalid address for free.
 This zone was already allocated.
 This zone was already allocated.
@@ -31477,7 +31493,8 @@ Block 81 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 81 end
-
+BLOCK 100 5
+READ_BLOCK 4348276 
 Invalid address for free.
 Invalid address for write.
 Invalid address for free.
@@ -31485,13 +31502,14 @@ This zone was already allocated.
 This zone was already allocated.
 Invalid address for free.
 Invalid address for free.
-uCHh
+LOCK
 Invalid address for free.
 Invalid address for free.
 Invalid address for write.
 Invalid address for free.
 Warning: size was bigger than the block size. Writing 2 characters.
 
+READ_BLOCK 5
 Invalid address for write.
 Total memory: 0x3C74 bytes
 Free memory: 0x2C62 bytes
@@ -32748,9 +32766,12 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 83 end
 Invalid address for free.
-
+OsTIPwqk
+READ_BLOCK 100 5
+FREE_BLOCK
 This zone was already allocated.
-
+ 8546410
+ALLOC
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2C22 bytes
@@ -33173,9 +33194,12 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 83 end
 Invalid address for free.
-
-
-
+E_BLOCK 6804
+READ_BLOCK 100 5
+READ_BLOCK 434827
+eI
+AD_BLOCK 100 5
+READ_
 Total memory: 0x3C74 bytes
 Free memory: 0x2C22 bytes
 Number of allocated blocks: 83
@@ -33596,6 +33620,7 @@ Block 83 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 83 end
+
 
 Invalid address for write.
 Invalid address for write.
@@ -34442,7 +34467,7 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 83 end
 Invalid address for write.
 Invalid address for write.
-13633
+CK 54
 This zone was already allocated.
 Total memory: 0x3C74 bytes
 Free memory: 0x2C22 bytes
@@ -37007,9 +37032,14 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 85 end
 Invalid address for free.
 Invalid address for write.
-
-
-
+sWjsp
+READ_BLOCK 57130035 8546410
+ALLOC
+OCK 100 5
+READ_BLOCK 4348276 856254
+F
+BLOCK 6804
+READ
 Total memory: 0x3C74 bytes
 Free memory: 0x2C00 bytes
 Number of allocated blocks: 85
@@ -37872,6 +37902,9 @@ Block 85 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 85 end
+qk
+READ_BLOCK 100 5
+FREE_BLOCK 6804
 
 Invalid address for free.
 Invalid address for free.
@@ -38738,7 +38771,11 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 85 end
 Invalid address for write.
-
+PBnHRNeIOsTIPwqk
+READ_BLOCK 100 5
+FREE_BLOCK 6804
+READ_BLOCK 100 5
+READ_BLOCK 434827
 Total memory: 0x3C74 bytes
 Free memory: 0x2BEE bytes
 Number of allocated blocks: 87
@@ -40502,10 +40539,15 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 87 end
 Invalid address for free.
-
+Pwqk
+READ_BLOCK 100 5
+FREE_BLOCK 6804
+h
+FREE_BLOCK 35112
+READ_BLOCK 5 176 
 This zone was already allocated.
 Warning: size was bigger than the block size. Writing 42 characters.
-
+R
 Total memory: 0x3C74 bytes
 Free memory: 0x2BEE bytes
 Number of allocated blocks: 87
@@ -41830,7 +41872,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 87 end
 Invalid address for free.
-
+uoCUCLsWjsp
+READ_BLOCK 57130035
 Invalid address for write.
 Invalid address for free.
 Total memory: 0x3C74 bytes
@@ -43168,7 +43211,12 @@ Block 88 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 88 end
-
+BnHRNeIOsTIPwqk
+READ_BLOCK 100 5
+FREE_BLOCK 6804
+h
+FREE_BLOCK 35112
+READ_BLOCK 5 1
 Total memory: 0x3C74 bytes
 Free memory: 0x2BE4 bytes
 Number of allocated blocks: 89
@@ -45893,7 +45941,11 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 90 end
 Invalid address for write.
 Invalid address for write.
-
+HRNeIOsTIPwqk
+READ_BLOCK 100 5
+FREE_BLOCK 6804
+h
+FRE
 Invalid address for write.
 Invalid address for write.
 This zone was already allocated.
@@ -46809,8 +46861,8 @@ Block 90 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 90 end
-
-16
+OCK 5 176 85625
+LO
 Total memory: 0x3C74 bytes
 Free memory: 0x2BE2 bytes
 Number of allocated blocks: 90
@@ -47266,15 +47318,24 @@ Block 90 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 90 end
-
-
-
+sp
+READ_BLOCK 5
+CK 100 5
+FREE_BLOCK 6804
+h
+FREE_BLOCK 35112
+READ_BLOCK 5 176 856
+804
+h
 Invalid address for free.
-
-
+K 6804
+h
+FREE_BLOCK 35112
+READ_BLOCK
+A
 Invalid address for free.
-062
-ALLOC_BLOCK
+CK 406 85
+ALLOC
 Invalid address for free.
 Total memory: 0x3C74 bytes
 Free memory: 0x2BD6 bytes
@@ -49146,8 +49207,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 92 end
 Invalid address for free.
-ALLOC_BLOCK 62581 4387
-READ_BLOCK 6582
+READ_BLOCK 57130035 8546410
+READ_BLOCK
 Total memory: 0x3C74 bytes
 Free memory: 0x2BD4 bytes
 Number of allocated blocks: 93
@@ -50559,8 +50620,10 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 93 end
 This zone was already allocated.
-4387
-READ_BLOCK 658260221 7226
+5 8546410
+READ_BLOCK 406 85
+AL
+130035 8546410
 
 Total memory: 0x3C74 bytes
 Free memory: 0x2BD0 bytes
@@ -51039,8 +51102,10 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 94 end
 Warning: size was bigger than the block size. Writing 97 characters.
 Invalid address for free.
+6 856254
+F
 
-K 660
+READ
 Total memory: 0x3C74 bytes
 Free memory: 0x2BD0 bytes
 Number of allocated blocks: 94
@@ -52001,9 +52066,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 95 end
 This zone was already allocated.
-17331 3753
-READ_BLOCK 66057 9190
-READ
+OCK 57130035 8546410
+READ_BLOCK 406 8
 Total memory: 0x3C74 bytes
 Free memory: 0x2BCE bytes
 Number of allocated blocks: 95
@@ -52485,7 +52549,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 95 end
 This zone was already allocated.
-
+31417 7574
+FREE_BLOCK 630516034
 Total memory: 0x3C74 bytes
 Free memory: 0x2BCE bytes
 Number of allocated blocks: 95
@@ -53449,10 +53514,14 @@ Block 95 end
 Invalid address for write.
 Invalid address for write.
 This zone was already allocated.
-OCK 6120253
-
+LLOC_BLOCK 
+OC_BLOCK 31417 7574
+FREE_BLOCK 6305160342
+FREE_BLOCK 35112
+R
 Invalid address for write.
-
+uoCUCLsWjsp
+READ_BLOCK 5
 Warning: size was bigger than the block size. Writing 11 characters.
 Invalid address for free.
 Total memory: 0x3C74 bytes
@@ -54426,6 +54495,7 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 96 end
 
+READ_BLOC
 Invalid address for write.
 Invalid address for free.
 Invalid address for free.
@@ -55899,9 +55969,12 @@ Block 97 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 97 end
-
-zYauCH
-
+0
+ALLOC_BL
+D_BLOC
+oCUCLsWjsp
+READ_BLOCK 57130035 8546410
+ALLOC_BL
 Invalid address for write.
 This zone was already allocated.
 Total memory: 0x3C74 bytes
@@ -56898,11 +56971,14 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 98 end
 Invalid address for free.
-kWxYzYauCHho
-READ_BLOCK 100 52L
-_BLOCK 66057 9190
-READ_BLOCK 
-EAD_BLOCK 100 52LOCK 
+
+READ_BLOCK 2 1
+FREE_BLOCK 3511
+46410
+READ_BLOCK 406 85
+ALLOC
+1
+FREE_BLOCK 35112AD_
 Total memory: 0x3C74 bytes
 Free memory: 0x2BBA bytes
 Number of allocated blocks: 99
@@ -57406,9 +57482,10 @@ Block 99 end
 Invalid address for free.
 This zone was already allocated.
 Invalid address for write.
-CK 17331
-
-READ_BLOCK 
+_BLOCK 5
+K 57130035 854
+06 85
+ALLOC
 
 Invalid address for write.
 Invalid address for write.
@@ -57916,7 +57993,8 @@ Block 99 begin
 Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 99 end
-
+BLOCK 57130035 8546410
+ALLOC_B
 Invalid address for free.
 Invalid address for write.
 Invalid address for free.
@@ -58925,8 +59003,8 @@ Zone: 0x1D9F - 0x1F9F
 Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 99 end
 Invalid address for free.
-BLOCK 17331 3753
-READ_BLOCK 66057 9
+EAD_BLOCK 57130035 8546410
+READ_BLO
 Total memory: 0x3C74 bytes
 Free memory: 0x2BB8 bytes
 Number of allocated blocks: 100
@@ -60951,8 +61029,9 @@ Miniblock 1:		0x1D9F		-		0x1F9F		| RW-
 Block 100 end
 Invalid address for write.
 Invalid address for write.
-
+10
+ALLOC_
 Invalid address for free.
 Invalid address for free.
 Invalid address for write.
-
+0035 854
