@@ -36,7 +36,7 @@ Block 2 end
 Warning: size was bigger than the block size. Writing 10 characters.
 Warning: size was bigger than the block size. Reading 10 characters.
 Observ sis
-Invalid permissions for write.
+Warning: size was bigger than the block size. Writing 10 characters.
 Total memory: 0x10000 bytes
 Free memory: 0xFFE2 bytes
 Number of allocated blocks: 3
@@ -54,5 +54,5 @@ Block 2 end
 
 Block 3 begin
 Zone: 0x3014 - 0x301E
-Miniblock 1:		0x3014		-		0x301E		| ---
+Miniblock 1:		0x3014		-		0x301E		| RW-
 Block 3 end

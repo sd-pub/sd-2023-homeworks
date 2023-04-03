@@ -211,7 +211,7 @@ def check_style(config):
         else:
             reason = 'No coding style errors automatically detected. Final points are given after manual grading.'
             update_grade_vmr(config, 0, reason)
-        config.grade += max(coding_style_grade, config.coding_style)
+        config.grade += max(0, min(coding_style_grade, config.coding_style))
 
 
     should_play_sound = config.grade == config.tests_points and coding_style_grade < config.coding_style
