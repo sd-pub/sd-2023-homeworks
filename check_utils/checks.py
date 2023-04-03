@@ -211,9 +211,10 @@ def check_style(config):
         else:
             reason = 'No coding style errors automatically detected. Final points are given after manual grading.'
             update_grade_vmr(config, 0, reason)
+        config.grade += max(coding_style_grade, config.coding_style)
+
 
     should_play_sound = config.grade == config.tests_points and coding_style_grade < config.coding_style
-    config.grade += max(coding_style_grade, config.coding_style)
 
     log('{}\n'.format(extract_stdout(child)))
 
@@ -225,8 +226,6 @@ def check_style(config):
         coding_style_grade, config.coding_style))
 
     return 0
-
-
 def run_test(task, test, use_valgrind=False, ):
     indent_log()
     stage_name = 'test' if not use_valgrind else 'valgrind'
@@ -236,7 +235,8 @@ def run_test(task, test, use_valgrind=False, ):
     if not use_valgrind:
         # man timeout: 124 if command times out
         expected_error_code = 124
-        cmd = f"make run_{task.id}"
+
+        cmd = '{}'.format(task.binary)
     else:
         # choose an error to be returned by valgrind
         expected_error_code = 69
@@ -252,14 +252,13 @@ def run_test(task, test, use_valgrind=False, ):
     set_mem_bytes(task.memory)
 
     try:
-        child = subprocess.run(['make', '-s', f'run_{task.id}'], shell=False if not use_valgrind else True,
+        child = subprocess.run(cmd, shell=False if not use_valgrind else True,
                                stdin=open(
                                    test.input, 'r') if task.use_stdin else subprocess.DEVNULL,
                                stdout=open(
                                    test.output, 'w') if task.use_stdout else subprocess.DEVNULL,
                                stderr=subprocess.PIPE,
                                timeout=task.timeout if not use_valgrind else 500,
-                               cwd=os.getcwd(),
                                preexec_fn=limit_process_memory if task.memory and not use_valgrind else None,
                                )
     except subprocess.TimeoutExpired as e:
